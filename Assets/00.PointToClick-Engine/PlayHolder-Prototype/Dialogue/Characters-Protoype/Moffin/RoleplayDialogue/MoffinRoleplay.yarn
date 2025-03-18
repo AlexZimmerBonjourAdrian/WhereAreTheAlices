@@ -1,0 +1,106 @@
+﻿title: Start_Roleplay
+tags: 
+colorID: 0
+position: 668,269
+---
+   <<SaveDialogueActual >> moffin: Hola que tal? //{GetStatByIndex(3,1)}
+ <<SaveDialogueActual >> moffin: Soy moffin.
+<<declare $Dec = "none">>
+<<if GetCurrentArchetypeName() == "Detective">>
+
+->Player: Y tu eres?. <<if GetStatByIndex(2,1) is true>> 
+    <<SaveDialogueActual>>
+    <<jump Roleplay_por_que_lo_mencionas>>
+  ->Player: por que me miras asi?. <<if GetStatByIndex(2,9) is true>>
+    <<SaveDialogueActual>>
+     <<jump Roleplay_Sabes_algo>>
+->Player: y si me das una prueba del servicio, si resulta ser bueno te pagare el doble.
+    <<SaveDialogueActual >>
+    <<jump Roleplay_Por_que_deberia_confiar>>
+
+
+<<elseif GetCurrentArchetypeName() == "LocaPerturbada">>
+->Player: Y tu pequeña abominacion quien eres?. 
+    <<jump Roleplay_Me_Das_Miedo>>
+->Player: Tengo ganas de derramar la sangre de una inocente, ¿sabes donde podria encontrar a una?
+    <<jump Roleplay_Que_demonios>>
+->Player: tengo hambre y te ves deliciosa.
+    <<jump Roleplay_Canibal>>
+<<endif>>
+===
+title: Roleplay_por_que_lo_mencionas
+tags: Moffin, conejita
+colorID: 0
+position: 1015,-57
+---
+
+Moffin:Por que es cannibal por supuesto. 
+Moffin:Es un monstruo con cara de angel, no confies en ella 
+Moffin:por suerte estaba aqui para advertirte, que buena persona soy. 
+<<stop>>
+===
+title: Roleplay_Sabes_algo
+tags: Moffin, conejita
+colorID: 0
+position: 1015,-57
+---
+
+Moffin:yo?, jaja no, o tal vez
+Moffin:si, se algo buscas a una niña, no? bien.
+Moffin:si me pagas te dire todo lo que quieras hasta cantare si quieres, señorita.
+<<stop>>
+===
+
+title: Roleplay_Por_que_deberia_confiar
+tags: Moffin
+colorID: 0
+position: 1594,-128
+---
+<<if GetStatByIndex(1,9)>>
+Moffin:bueno bueno, reconozco cuando un cliente tiene la razon.
+Moffin: con un demonio, vamos te guiare.
+<<stop>>
+
+<<elseif GetStatByIndex(1,1)>>
+Moffin: jajaja Idiota.
+Moffin: este es el pais de las maravillas, cuentaselo a alguna otra idiota que te se lo trague.
+<<stop>>
+<<endif>>
+===
+
+title: Roleplay_Me_Das_Miedo
+tags: Moffin
+colorID: 0
+position: 1594,-128
+---
+<<if GetStatByIndex(1,9)>>
+Moffin:bueno bueno, reconozco cuando un cliente tiene la razon.
+Moffin: con un demonio, vamos te guiare.
+<<stop>>
+
+<<elseif GetStatByIndex(1,1)>>
+Moffin: jajaja Idiota.
+Moffin: este es el pais de las maravillas, cuentaselo a alguna otra idiota que te se lo trague.
+<<stop>>
+<<endif>>
+===
+
+title: Roleplay_Que_demonios
+tags: Moffin
+colorID: 0
+position: 1594,-128
+---
+Moffin:Ha..... que me...me estas diciendo
+Moffin: Me...me tengo que ir si...me tengo que ir, nos..nos vemos señorita
+<<stop>>
+===
+
+title: Roleplay_Canibal
+tags: Moffin
+colorID: 0
+position: 1594,-128
+---
+Moffin:Co...comere...yo...yo esto...por favor soy muy joven para morir. te..te dare lo que quieras..
+Moffin: Q..quiero a mi mami.
+<<stop>>
+===

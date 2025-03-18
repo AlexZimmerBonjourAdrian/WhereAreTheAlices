@@ -1,0 +1,166 @@
+﻿title: Start_Moffin
+tags: Moffin
+colorID: 0
+position: 1442,-485
+---
+<<declare $characterName = "conejita">>
+<<if visited("Start_Moffin") is false>>
+<<keyword {$characterName}>>
+Moffin: Yo no confiaria en la {$characterName}, si fuera tu. #line:0ed33f4 
+
+
+-> Player: por que lo mencionas? #line:0cab067 
+    <<jump por_que_lo_mencionas>>
+
+-> Player: Por que deberia confiar en ti? #line:04af4d3 
+     <<jump Por_que_deberia_confiar>>
+
+-> Player: Se ve como una persona, con un gran corazon. #line:0a9c76f 
+     <<jump Se_ve_como_una_persoan_con_un_gran_corazon>>
+<<else>>
+Moffin: y bien?  que pasa? #line:0dd2ecf 
+moffin: Tienes miedo a morir, Quiza? #line:0a2ca7e 
+<<endif>>
+===
+title: por_que_lo_mencionas
+tags: Moffin, conejita
+colorID: 0
+position: 1015,-57
+---
+Moffin:Por que es cannibal por supuesto. #line:05fe85b 
+Moffin:Es un monstruo con cara de angel, no confies en ella #line:0072ba1 
+Moffin:por suerte estaba aqui para advertirte, que buena persona soy. #line:05930c5 
+Moffin:Ahora si hablamos de proteccion. #line:08056bb 
+Moffin:Serian Cincuenta #line:0ea4e8f 
+
+-> Player: cincuenta que? dolares? #line:0149795 
+ <<jump Cincuenta_que_dolares>>
+-> Player: No te creo, no te pagare #line:0caedcf 
+ <<jump No_creo_No_Pago>>
+===
+title: Por_que_deberia_confiar
+tags: Moffin
+colorID: 0
+position: 1594,-128
+---
+Moffin:Por que conozco el lugar, #line:009bd1d 
+Moffin: conozco todo lo que hay en estos lados  #line:0df5cfe 
+Moffin:y tu eres un polisonte, digamos. #line:080642c 
+Moffin:Gran abrico, sombrero, camisa, corbata, zapatos, #line:0b86c62 
+Moffin: todo de tan buena calidad, no eres de aqui se nota. #line:07045c6 
+Moffin:Asi que,  #line:09f4e5d 
+Moffin:si quieres no meterte en un lugar demasiado peligroso.. #line:0df8c9c 
+Moffin: para usted, pagueme y sere su guia. #line:090faa1 
+
+-> Player:no tengo dinero, disculpe. #line:02801c8 
+     <<jump Cincuenta_que_dolares>>
+-> Player:Me arriesgare con la coneja, gracias igualmente. #line:0ab7e0f 
+   <<jump Me_arriesgare_con_la_coneja>>
+===
+title: Se_ve_como_una_persoan_con_un_gran_corazon
+tags: Moffin
+colorID: 0
+position: 2070,-57
+---
+Moffin:Y Eso es lo que quiere creeas. #line:023cfca 
+Moffin:Es una mentirosa. #line:0b990df 
+Moffin:Quiere tu carne, tu sangre,  #line:0ca1797 
+Moffin:y esa cosa que los humanos tiene,cabello?. #line:030c46d 
+Moffin:No estoy segura. #line:046f687 
+
+-> Player: Tomare el riesgo #line:04a163e 
+<<jump Tomare_el_riesgo>>
+===
+title: Cincuenta_que_dolares
+tags: Moffin
+colorID: 0
+position: 1233,34
+---
+Moffin:Dolares?,  #line:02cd977 
+Moffin:que? #line:0f65112 
+Moffin:no hablo de cincuenta terrones de azucar. #line:0e56c4a 
+Moffin:que es eso de Doralers? otro tipo de terrones. #line:0e2970d 
+Moffin:No, solo es un pago, y te escoltare, #line:0d099e7 
+Moffin:si no estas muy seguro,  #line:04ba050 
+Moffin:tambien tu guarda espaldas y tu mediadora, #line:0ac22af 
+Moffin:Todos me conocen,  #line:02e6d14 
+Moffin:tengo una reputacion aqui una muy buena. #line:011c756 
+
+-> Player: Y la botella de vino en tu mano? #line:0f315ff 
+<<jump Y_la_botella_de_vino_en_tu_mano>>
+-> Player: No tengo terrones, acabo de llegar a este "pais". #line:094620d 
+<<jump No_tengo_terrones>>
+===
+title: Y_la_botella_de_vino_en_tu_mano
+tags: Moffin
+colorID: 0
+position: 651,471
+---
+ Moffin: Que es vino?. #line:0de5ed3 
+ Moffin: esto es te de hongos. #line:07ac30d 
+ moffin: Muy comun aqui extrangero. #line:08aec80 
+ -> player:No tengo dinero, disculpe. #line:0133eb9 
+<<jump no_tengo_dinero_disculpe>>
+===
+title: No_tengo_terrones
+tags: Moffin
+colorID: 0
+position: 1247,189
+---
+Moffin:En ese caso. #line:0c7cbb4 
+Moffin:shu! shu! #line:09f89a9 
+Moffin:no hago tratos con pobres. #line:05638c4 
+<<stop>> 
+===
+title: No_creo_No_Pago
+tags: Moffin
+colorID: 0
+position: 1247,358
+---
+Player: Gracias, no te creo. #line:0091b6c 
+Player: No voy a pagarte. #line:077c0cb 
+Player: Gracias por la propuesta igualmente. #line:0db4ffc 
+Moffin:vaya pero que tonto. #line:087814a 
+Moffin:Bueno, suete con tus dos minutos de vida, aproximados #line:0392b1b 
+<<stop>>
+===
+title: no_tengo_dinero_disculpe
+tags: Moffin
+colorID: 0
+position: 1444,184
+---
+Moffin:En ese caso. #line:049286a 
+Moffin:Que perdida de tiempo #line:0446dde 
+Moffin:Suerte polisonte, que no te coma la coneja o los demas habitantes,  #line:02d3507 
+Moffin:dicen que los humanos son muy sabrosos,  #line:0c5322b 
+Moffin:No me interesa averiguarlo. #line:01f3258 
+<<stop>> 
+===
+title: Me_arriesgare_con_la_coneja
+tags: Moffin
+colorID: 0
+position: 1679,190
+---
+Moffin:Es tu funeral. #line:0272509 
+Moffin:No digas que no te lo adverti #line:0f0368f 
+<<stop>> 
+===
+title: Tomare_el_riesgo
+tags: Moffin
+colorID: 0
+position: 2072,192
+---
+Moffin:Vaya que eres temerario. #line:0131738 
+Moffin:Bueno, #line:0720611 
+Moffin:Me quedare con tus cosas cuando mueras #line:018f1d3 
+Moffin:Solo aviso. #line:0bd1562 
+<<stop>> 
+===
+// title: conejita
+// tags: Moffin, conejita
+// colorID: 
+// position: 1768,313
+// ---
+// Moffin:Jaja estupido!!, ¿es un monstruo que esperabas? #line:02c574d 
+// <<jump No_tengo_terrones>>
+// ===

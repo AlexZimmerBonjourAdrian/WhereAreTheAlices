@@ -1,0 +1,36 @@
+Clase principal CMICILSPSystem sistema de control de skills
+
+Clase de manager CDialogueManager
+Controla todo lo referente a los dialogos y su comportamiento global
+
+clase de controller CDialogueController Combina todo los sistemas para que funcionen en sincronia - Wip
+
+Clase CKeyWordHandler Genera un boton que es añadida despues a la iteracion del los dialogos 
+
+Clase CRoleplayDialogue es una clase que controla todo lo referente al Roleplay control de estadisticas, check skills.
+
+Clase CInterrogativeDialogue es una clase que controla el tema de los dialogos interrogatiorios funcionan de la siguiente manera
+
+-si no conoces al personaje
+ *Interactuas con el averiguas su informacion basica que se desvela en un menu de libreta.
+ *los datos se desvelan segun las los dialogos del los personajes, eso es segun que tipo de datos mencione el personaje.
+ *con la libreta con los datos, se pueden efectuar interrogatorios para saber mas informacion tanto del personaje como habilitar la de otros personajes.
+ *en este caso los check skills del CRoleplay Seria util para sacar informacion.
+
+ *la clase CKeyWordHandler tambien serviria para detectar datos extraños o elemntos para poder sacar mas informacion, conseguir mas inforamcion sobre el tema.
+ 
+-Si ya se conoce al personaje 
+* Todo lo anterior
+* se generan unas preguntas para socabar mas informacion en un menu que es una libreta. al momento de realizarlas se subrayan y no son mas accesibles
+* estas preguntas tambien tiene chekSkills de Roleplay
+* y tambien estas preguntas dependen de los arquetipos.
+
+La clase de CDebateDialogue se enrcarga de controlar las discusiones, debates, o aclaraciones con los personajes esto solo cuando las cosas se vuelven intensas.
+
+
+
+-Los personajes tambien tiene afinidad con el personaje y esto puede tambien afectar si coperan o no.
+
+
+
+    

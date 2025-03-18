@@ -1,0 +1,33 @@
+title: keyword
+tags: Moffin
+colorID: 0
+position: 1442,-485
+---
+<<declare $keyword = "conejita">>
+<<if visited("Start_Moffin") is false>>
+<<keyword {$keyword}>>
+Moffin: Yo no confiaria en la {$keyword}, si fuera tu.
+
+
+-> Player: por que lo mencionas? 
+    <<jump por_que_lo_mencionas>>
+
+-> Player: Por que deberia confiar en ti? 
+     <<jump Por_que_deberia_confiar>>
+
+-> Player: Se ve como una persona, con un gran corazon. 
+     <<jump Se_ve_como_una_persoan_con_un_gran_corazon>>
+<<else>>
+Moffin: y bien?  que pasa? 
+moffin: Tienes miedo a morir, Quiza? 
+<<endif>>
+===
+
+title: conejita
+tags: Moffin, conejita
+colorID: 
+position: 1768,313
+---
+Moffin:Jaja estupido!!, ¿es un monstruo que esperabas? 
+<<jump No_tengo_terrones>>
+===

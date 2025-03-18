@@ -1,0 +1,85 @@
+# PointToClick Engine Documentation
+
+## Introduction
+The PointToClick Engine is a Unity-based framework designed to facilitate the creation of point-and-click adventure games. This documentation will guide you through the setup, usage, and customization of the engine.
+
+## Table of Contents
+1. Getting Started
+2. Setting Up the Engine
+3. Creating Scenes
+4. Adding Interactable Objects
+5. Scripting Events
+6. Customizing the UI
+7. Debugging and Testing
+8. Notes for Developers
+
+## 1. Getting Started
+To get started with the PointToClick Engine, ensure you have the following prerequisites:
+- Unity 2020.3 or later
+- Basic understanding of Unity Editor
+- Basic knowledge of C#
+
+## 2. Setting Up the Engine
+1. **Import the Engine**: Download and import the PointToClick Engine package into your Unity project.
+2. **Initial Setup**: Open the `PointToClickEngine` prefab and drag it into your scene. This prefab contains the core components of the engine.
+
+## 3. Creating Scenes
+1. **New Scene**: Create a new scene in Unity.
+2. **Add Background**: Import your background image and set it as the scene's background.
+3. **Scene Manager**: Add the `SceneManager` script to an empty GameObject in your scene. This script will handle scene transitions and management.
+
+## 4. Adding Interactable Objects
+1. **Create Object**: Create a new GameObject for each interactable object.
+2. **Add Collider**: Attach a collider component to the GameObject to detect clicks.
+3. **Interaction Script**: Add the `InteractableObject` script to the GameObject. Configure the interaction settings in the Inspector.
+
+## 5. Scripting Events
+1. **Event Scripts**: Create custom scripts inheriting from the `Event` class to define specific interactions.
+2. **Attach Events**: Attach your custom event scripts to the interactable objects via the `InteractableObject` component.
+
+## 6. Customizing the UI
+1. **UI Elements**: Customize the UI elements such as inventory, dialogue boxes, and menus.
+2. **UI Manager**: Use the `UIManager` script to manage and update UI elements during gameplay.
+
+## 7. Debugging and Testing
+1. **Play Mode**: Enter Play Mode in Unity to test your scenes and interactions.
+2. **Debug Logs**: Use `Debug.Log` statements in your scripts to track and fix issues.
+3. **Profiler**: Utilize Unity's Profiler to monitor performance and optimize your game.
+
+## 8. Notes for Developers
+- **Optimization**: Ensure that all assets are optimized for performance. Large textures and unoptimized scripts can slow down the game.
+- **Modularity**: Keep your scripts modular and reusable. Avoid hardcoding values; use scriptable objects or configuration files instead.
+- **Documentation**: Comment your code and maintain this documentation as you add new features to the engine.
+
+**Note**: If you encounter any issues or have suggestions for improvements, please document them and notify the lead developer.
+
+---
+
+This documentation is intended to help junior developers get started with the PointToClick Engine. If you find any part of this documentation unclear or incomplete, please reach out for further assistance.
+
+
+Lo primero que vemos es que el código fuente del motor PointToClick está dividido entre diferentes archivos. Está bien organizado, ya que cada archivo se encarga de una tarea específica para facilitar su mantenimiento y progreso en desarrollo.
+
+En 
+CCharacterController
+ (Assets/00.PointToClick-Engine/Script/Contollers/CCharacterController.cs), parece que este archivo no contiene ningún código o definición de clases. Solamente se define una clase llamada 
+CCharacterController
+ en un espacio de nombres denominado PointClickerEngine y requiere dos componentes: CCharacter y CAnimationController. Sin embargo, este archivo está vacío actualmente. Se podría agregar código para controlar las acciones del personaje o animaciones aquí.
+
+En 
+CPointToClick
+ (Assets/00.PointToClick-Engine/Script/Principal/CPointToClick.cs), parece que este archivo contiene la implementación principal del motor PointToClick Engine, específicamente las funcionalidades de interactuar con puntos de clic en pantalla y manejar el estado actual de la interacción del usuario. Sin embargo, sin más contexto o código adjunto, no es posible determinar exactamente su comportamiento o cómo usarlo adecuadamente.
+
+Finalmente, en 
+CInspection
+ (Assets/WhereAreTheAlice/Scripts/Script/inspectionSystem/CInspection.cs), parece que este archivo contiene la lógica para el sistema de inspección de objetos del juego. Implementa una interfaz Iinteract y tiene un método OnInteract() sin implementar, lo cual significa que debe ser rellenado con código personalizado para realizar acciones específicas cuando se interactúe con el objeto asociado a este script.
+
+En general, los archivos de PointToClick Engine parecen estar bien diseñados y están bien organizados, pero sin más detalles o contexto del código adjunto aquí, no es posible determinar exactamente cómo usarlos en su propio proyecto. Para obtener más información sobre cómo usarlos individualmente para interactuar con objetos de la pantalla, verifique los archivos mencionados y busque la documentación proporcionada junto con el motor.
+
+
+
+CCharacterController: Esta clase parece ser un controlador que puede manejar acciones del personaje o animaciones en el motor PointToClick Engine. Sin más contexto, es difícil decir con exactitud cómo y cuándo usaría esta clase en su proyecto, pero podría usarse para definir la lógica de movimiento o de animación para un objeto que interactúe con puntos de clic en el juego.
+
+CPointToClick: Esta es la clase principal del motor PointToClick Engine. Implementa la funcionalidad básica para interactuar con puntos de clic en pantalla y manejar el estado actual de la interacción del usuario. Sin más contexto, es difícil decir con exactitud cómo y cuándo usaría esta clase en su proyecto, pero podría usarse para definir comportamientos específicos en puntos de clic o manejar transiciones de escena.
+
+CInspection: Esta es una clase que implementa la funcionalidad del sistema de inspección de objetos en el juego. Implementa una interfaz Iinteract, lo cual significa que debe ser rellenado con código personalizado para definir qué ocurre cuando se interactúe con un objeto asociado a este script. En sí misma no contiene lógica de interacción o inspección específica del juego, pero puede usarse como una base para implementar esta funcionalidad en sus propios objetos y escenarios.

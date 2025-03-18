@@ -1,0 +1,56 @@
+Where is Alicia?(Tile Provisional)
+
+High concept:
+Wonderlands(Title provisional)  es un juego de novela visual de terror en el cual se encarnas a una detective, en el cual esta en un caso muy dificil.
+Una niña fue secuestrada y uno de los sospechosos lo hizo, hay inocntes culpables aunue por otros crimenes y un monstruo en el sentido literal y figurativo. 
+Interrogar a los peronajes usando diferentes opciones de dialogos o metodos como la intimidacion o incluso la amenaza fisica o letal, el caso es demasiado impotante para fallar.
+Solo tienes cuarentaicinco minitos para encontrar tipo y que cante o si no la niña morira.
+Este trabajo es de lo mas oscuro que has enfrentado hasta ahora un monstruo sadico que solo mata niños.
+
+
+//Gameplay Ref
+Features
+3D Pre-Renderizado para el nivel y peronajes minimalistas dibujados 
+Estilo gothico mas simplofocado a lo Tim Burton
+resuelve tus interrogatorios de manera inteligente
+Ambiente tétrico son color
+mecanicas de rotacion de sospechosos.
+
+override:
+Who is a monster es un juego de terror psicológico novelas visual, con toues de rol, eres una detective llamada Juno una veterana a sus 36 años, que está en buscando el paradero de alicia, hace poco capturaron a un grupo de sospechosos todos estos tiene realcion con el crimen de forma directa, indirecta o por pura mala fortuna, te pidieron ue averiguaras donde esta la niña y te dieron carta blanca para usar el metodo que quieras.
+una carta decia que esta niña estaba en una caja con aire para cuarenticinco minutos de tiempo real que se activa cuando debes tomar desiciones, el juego comienza con un sospechozo siempre alazar, en este caso draco
+Se debe sacar informacion con las palabras primero si no se puede de esa manera se debe convencer a los agentes de el exterior que te peritan usar otros metodos, esto podria matar al sospechozo cosa que causa un fin del juego.
+se busca al sospechoso y al enontrarlo se puede solicitar su arresto.
+Combinado dos tipos de juegos.
+
+Empieza las presentaciones del interrogatorio, los dialogos tiene ue ser precisos y profesionales, los perosnajes seran evasivos, el jugador es el que decide si cambiar de sospechoso o si la informacion es suficiente para localizar a Alice.
+
+Si el personaje se niega a responder o esta en un estado de animo como miedo, arrogancia, Panico, O ira, esto cortara la convrsacion hasta ue este estado cambia sea con dialgoso o con amenazas o fuerza fisica.
+
+una vez comprobado que el personaje no sabe nada, sabe algo o es el asesino. se tacha de los personajes elegibles en los anteriores casos y en el tercero se desbloque el final bueno.
+
+en caso de agotarse el tiempo se muestra una imagende un ataud y una mano sin vida colgando de el, desboqueando un final malo.
+Clue Encontrar al sospechoso de el secuestro.
+Con Este no es mi vecino Poder encarcelarlo si estas seguro de ello.
+
+
+
+Licencias:
+Todos los derechos de Who is a monster?  son reservados para ZimmZimmGames, la propiedad intelectual, sus personajes, historia, código, arte y cualquier elemento de este mismo.
+Esta historia solo esta basada en Alicia en el país de las maravillas de Luis Cambel que es de dominio público, es una interpetacion libre.
+
+Player Motivation:
+Encontrar a Alicia y regresar con su familia
+Genre:
+Visual novel, Rol.
+Platforms:
+PC(steam[Principal], Epic Games, GOG) , Play Store, Web, itch.io.
+Competition:
+Clue, It's not my neiberhood
+
+
+Unique Selling Points:
+Historia basada en Alicia en el pais de las maravillas a menor grado.
+Visual Novel + Toques de rol.
+Visual novel contra reloj.
+

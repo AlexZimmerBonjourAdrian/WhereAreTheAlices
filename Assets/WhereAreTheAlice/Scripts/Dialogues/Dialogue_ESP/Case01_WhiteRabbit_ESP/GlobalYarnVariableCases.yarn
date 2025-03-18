@@ -1,0 +1,32 @@
+﻿title: GlobalYarnVariableCases
+tags: Varaibles
+---
+//Variable ToChance Arquetipe
+<<declare $Morality = 100>>  // Ayudar a inocentes  
+//Range 0-50 Monster
+//Range 50-100 Villain
+//Range 100-150 Detective
+//Range 150-200 Heroe
+
+  
+
+//Arquetipe
+<<declare $Arquetipo = "Detective">> // Puedes cambiar el valor inicial según el arquetipo del jugador
+<<declare $ADetective = "Detective">>
+<<declare $AVillain = "Villain">>
+<<declare $AHeroe = "Heroe">>
+<<declare $AMonster = "Monster">>
+
+//QTE Variable
+<<declare $MovementMove = 50>>
+<<declare $MinMovement = 0>>
+<<declare $MaxMovement = 100>>
+<<declare $successful = 100>>
+<<declare $superFaile = 0>>
+<<declare $timerPressed = 50>>
+
+
+===
+
+
+

@@ -1,0 +1,233 @@
+{
+  "Variables": [
+    {
+      "Name": "$Justice",
+      "Value": "0",
+      "Type": "System.Single"
+    },
+    {
+      "Name": "$Sacrifice",
+      "Value": "0",
+      "Type": "System.Single"
+    },
+    {
+      "Name": "$Cruelty",
+      "Value": "0",
+      "Type": "System.Single"
+    },
+    {
+      "Name": "$cordura",
+      "Value": "30",
+      "Type": "System.Single"
+    },
+    {
+      "Name": "$IsMutantDialog",
+      "Value": "False",
+      "Type": "System.Boolean"
+    },
+    {
+      "Name": "$IsYes_Tour",
+      "Value": "False",
+      "Type": "System.Boolean"
+    },
+    {
+      "Name": "$IsNo_Tour",
+      "Value": "False",
+      "Type": "System.Boolean"
+    },
+    {
+      "Name": "$Loop_Responde",
+      "Value": "False",
+      "Type": "System.Boolean"
+    },
+    {
+      "Name": "$Activate_Event_Terror_Change_Room",
+      "Value": "False",
+      "Type": "System.Boolean"
+    },
+    {
+      "Name": "$CharNameMoffin",
+      "Value": "moffin",
+      "Type": "System.String"
+    },
+    {
+      "Name": "$Dec",
+      "Value": "none",
+      "Type": "System.String"
+    },
+    {
+      "Name": "$moralidad",
+      "Value": "0",
+      "Type": "System.Single"
+    },
+    {
+      "Name": "$Yarn.Internal.Visiting.Start_Moffin_Test",
+      "Value": "0",
+      "Type": "System.Single"
+    },
+    {
+      "Name": "$Yarn.Internal.Visiting.StartVisual",
+      "Value": "0",
+      "Type": "System.Single"
+    },
+    {
+      "Name": "$Cordura",
+      "Value": "1",
+      "Type": "System.Single"
+    },
+    {
+      "Name": "$habitacion",
+      "Value": "10",
+      "Type": "System.Single"
+    },
+    {
+      "Name": "$vida",
+      "Value": "6",
+      "Type": "System.Single"
+    },
+    {
+      "Name": "$llave",
+      "Value": "True",
+      "Type": "System.Boolean"
+    },
+    {
+      "Name": "$pocion",
+      "Value": "False",
+      "Type": "System.Boolean"
+    },
+    {
+      "Name": "$espada",
+      "Value": "True",
+      "Type": "System.Boolean"
+    },
+    {
+      "Name": "$enemigo_derrotado",
+      "Value": "True",
+      "Type": "System.Boolean"
+    },
+    {
+      "Name": "$juego_terminado",
+      "Value": "True",
+      "Type": "System.Boolean"
+    },
+    {
+      "Name": "$enemigo_vida",
+      "Value": "-1",
+      "Type": "System.Single"
+    },
+    {
+      "Name": "$enemigo_daño",
+      "Value": "2",
+      "Type": "System.Single"
+    },
+    {
+      "Name": "$jugador_daño",
+      "Value": "3",
+      "Type": "System.Single"
+    },
+    {
+      "Name": "$Miedo",
+      "Value": "0",
+      "Type": "System.Single"
+    },
+    {
+      "Name": "$Bob",
+      "Value": "Bob",
+      "Type": "System.String"
+    },
+    {
+      "Name": "$Cheshire",
+      "Value": "Cheshire",
+      "Type": "System.String"
+    },
+    {
+      "Name": "$Alice",
+      "Value": "Alice",
+      "Type": "System.String"
+    },
+    {
+      "Name": "$CB",
+      "Value": "CB",
+      "Type": "System.String"
+    },
+    {
+      "Name": "$Confianza",
+      "Value": "10",
+      "Type": "System.Single"
+    },
+    {
+      "Name": "$ConfianzaAlice",
+      "Value": "0",
+      "Type": "System.Single"
+    },
+    {
+      "Name": "$ConfianzaCB",
+      "Value": "8",
+      "Type": "System.Single"
+    },
+    {
+      "Name": "$Arquetipo",
+      "Value": "Detective",
+      "Type": "System.String"
+    },
+    {
+      "Name": "$ADetective",
+      "Value": "Detective",
+      "Type": "System.String"
+    },
+    {
+      "Name": "$AVillain",
+      "Value": "Villain",
+      "Type": "System.String"
+    },
+    {
+      "Name": "$AHeroe",
+      "Value": "Heroe",
+      "Type": "System.String"
+    },
+    {
+      "Name": "$AMonster",
+      "Value": "Monster",
+      "Type": "System.String"
+    },
+    {
+      "Name": "$Morality",
+      "Value": "100",
+      "Type": "System.Single"
+    },
+    {
+      "Name": "$MovementMove",
+      "Value": "50",
+      "Type": "System.Single"
+    },
+    {
+      "Name": "$MinMovement",
+      "Value": "0",
+      "Type": "System.Single"
+    },
+    {
+      "Name": "$MaxMovement",
+      "Value": "100",
+      "Type": "System.Single"
+    },
+    {
+      "Name": "$successful",
+      "Value": "100",
+      "Type": "System.Single"
+    },
+    {
+      "Name": "$superFaile",
+      "Value": "0",
+      "Type": "System.Single"
+    },
+    {
+      "Name": "$timerPressed",
+      "Value": "50",
+      "Type": "System.Single"
+    }
+  ],
+  "DialogueHistory": [
+    "InterruptRight",
+    "InterruptLeft"
+  ]
+}

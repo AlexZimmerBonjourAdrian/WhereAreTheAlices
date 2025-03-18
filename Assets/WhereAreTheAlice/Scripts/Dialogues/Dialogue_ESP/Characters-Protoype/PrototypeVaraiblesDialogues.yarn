@@ -1,0 +1,15 @@
+﻿title: PrototypeVaraiblesDialogues
+tags:
+---
+<<declare $IsMutantDialog = false>>
+
+<<declare $IsYes_Tour = false>>
+
+<<declare $IsNo_Tour = false>>
+
+<<declare $Loop_Responde = false>>
+
+<<declare $Activate_Event_Terror_Change_Room = false>>
+
+
+===

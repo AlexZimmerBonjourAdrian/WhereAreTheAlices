@@ -1,0 +1,313 @@
+Pitch Document: Where is Alicia?
+Concepto:
+
+Where is Alicia? es una novela visual de terror de ritmo rápido donde el jugador asume el papel de Juno, una detective hastiada, con la tarea de interrogar a un sospechoso clave en el secuestro de una niña llamada Alicia. Con un reloj en tiempo real corriendo, Juno debe usar su ingenio y tácticas de interrogatorio para descubrir la verdad en solo 20 minutos. Cada segundo cuenta, y cada decisión puede significar la diferencia entre la vida y la muerte de Alicia.
+
+Público Objetivo:
+
+Jugadores que disfrutan de novelas visuales con una atmósfera oscura, thrillers psicológicos, y juegos con presión de tiempo. Fanáticos de las historias de misterio y las narrativas ramificadas encontrarán en Where is Alicia? una experiencia intensa y atractiva.
+
+Jugabilidad:
+
+El jugador interactúa con el sospechoso a través de un sistema de diálogos con opciones de respuesta. La presión del tiempo constante obliga al jugador a pensar rápido y tomar decisiones cruciales. Un minijuego de interrogatorio, representado por una barra de presión, añade un elemento interactivo y de tensión a las conversaciones. El jugador deberá mantener la barra en el nivel adecuado para obtener información del sospechoso sin recurrir a la violencia extrema. Las decisiones del jugador y su habilidad en el minijuego influirán directamente en el final del juego, llevando a uno de tres posibles desenlaces.
+
+Características Clave:
+
+Atmósfera Oscura: Una estética gótica inspirada en Tim Burton crea un ambiente opresivo y misterioso que sumerge al jugador en la desesperada búsqueda de Alicia.
+Presión del Tiempo Real: Un reloj de 20 minutos en tiempo real añade una capa de tensión constante y obliga al jugador a tomar decisiones rápidas.
+Minijuego de Interrogatorio: Un sencillo pero efectivo minijuego que representa la presión psicológica durante el interrogatorio, agregando un elemento interactivo a la experiencia.
+Múltiples Finales: Tres finales distintos basados en las decisiones del jugador ofrecen rejugabilidad e incentivan la exploración de diferentes estrategias.
+Historia Intrigante: Una narrativa concisa y absorbente que explora temas de secuestro, desesperación y la lucha contra el reloj.
+Plataformas:
+
+PC (Steam, Itch.io) y dispositivos móviles (Android, iOS).
+
+Propuesta Única de Venta:
+
+Where is Alicia? ofrece una experiencia de novela visual de terror concisa y emocionante, combinando la tensión del tiempo real con una narrativa oscura y atractiva. La mecánica simple pero efectiva del minijuego de interrogatorio añade una capa extra de interacción, mientras que los múltiples finales ofrecen rejugabilidad. El juego está diseñado para ser accesible a un público amplio, al tiempo que proporciona una experiencia memorable y perturbadora.
+
+
+
+
+
+
+
+
+
+
+
+=========================Discarted========================================================
+The Stolen Child of Wonderland (Título Provisional)
+Concepto Principal:
+
+The Stolen Child of Wonderland es una novela visual de terror con elementos de RPG. Juegas como Juno, una detective veterana de 36 años, encargada de encontrar a la niña secuestrada, Alicia. Un grupo de sospechosos, cada uno conectado al crimen de forma directa, indirecta o por pura mala suerte, ha sido capturado. Tu misión es interrogarlos y descubrir la verdad antes de que se acabe el tiempo. Tienes solo 45 minutos reales para encontrar a Alicia y llevar al culpable ante la justicia. Este caso es el más oscuro que Juno ha enfrentado: un sádico monstruo que se aprovecha de los niños.
+
+Mecánicas de Juego:
+
+Interrogatorios: Interroga a los sospechosos utilizando diversas opciones de diálogo y métodos de persuasión. Emplea tácticas que van desde la simple conversación hasta la intimidación, las amenazas e incluso la fuerza física, si la situación lo amerita. Recuerda: el tiempo corre.
+
+Sistema de Sospechosos: El juego comienza con un sospechoso aleatorio. Rota entre los sospechosos, recopilando información y evaluando su posible culpabilidad. Cada sospechoso reaccionará de manera diferente a tus métodos, mostrando miedo, arrogancia, pánico o ira, lo que afectará el flujo de la conversación.
+
+Gestión del Tiempo: Un reloj en tiempo real de 45 minutos marca la cuenta regresiva. Esta presión constante intensifica la experiencia y te obliga a tomar decisiones difíciles rápidamente.
+
+Consecuencias Morales: Tus acciones tienen consecuencias. El uso excesivo de la fuerza o la toma de decisiones precipitadas pueden llevar a la muerte de un sospechoso o incluso al fracaso de la misión.
+
+Múltiples Finales: El juego ofrece múltiples finales dependiendo de tus elecciones y tu éxito en la investigación. ¿Encontrarás a Alicia a tiempo? ¿Detendrás al verdadero monstruo?
+
+Inspiración en Clásicos: Where is Alicia? toma inspiración de juegos como Clue y This is not my Neighbor, incorporando elementos de deducción, investigación y tensión psicológica.
+
+
+
+Estilo Visual:
+Estética gótica simplificada, inspirada en el estilo de Tim Burton, con personajes minimalistas y entornos 3D pre-renderizados. Una atmósfera tétrica y oscura con una paleta de colores sombría realza la tensión y el suspense.
+
+Plataformas:
+PC (Steam, Epic Games Store, GOG), dispositivos móviles (Play Store) y web (itch.io).
+
+Público Objetivo:
+
+Jugadores aficionados a las novelas visuales, los juegos de misterio, los thrillers psicológicos y las narrativas oscuras.
+
+Propuesta Única de Venta:
+Una novela visual de terror con un límite de tiempo real que te obliga a tomar decisiones difíciles con consecuencias significativas. La retorcida reinterpretación de Alicia en el País de las Maravillas en un contexto oscuro y gótico ofrece una experiencia única y perturbadora.
+
+
+Notas de Gemini:
+Integrando las Mecánicas de Pruebas y Evidencias con Interrogatorios:
+
+La idea es que las pruebas encontradas influyan directamente en los interrogatorios, abriendo nuevas opciones de diálogo o modificando las existentes. Podrías implementar esto de varias maneras:
+
+Desbloqueando Diálogos: Al encontrar una prueba específica (ej. una carta, un objeto personal, etc.), se desbloquean nuevas líneas de diálogo en el interrogatorio de un sospechoso en particular. Esto te permitiría confrontarlo con la evidencia, obtener nuevas pistas o incluso cambiar su actitud.
+Modificando Diálogos: Una prueba podría modificar las opciones de diálogo existentes. Por ejemplo, si tienes evidencia que contradice la coartada de un sospechoso, la opción de "Presionar" podría volverse más efectiva, mientras que la opción de "Empatizar" podría ser menos útil.
+Minijuegos de Interrogatorio: Podrías incorporar minijuegos durante los interrogatorios que se vean afectados por las pruebas. Por ejemplo, si tienes una prueba sólida, podrías tener ventaja en un minijuego de "Debate" donde debes seleccionar las mejores frases para acorralar al sospechoso. Si en cambio, usas la fuerza podrías activar un minijuego para intimidar usando una barra que sube y baja simulando la presión psicológica.
+Objetos Clave de Alicia en el País de las Maravillas:
+
+Estos objetos pueden servir como pruebas o como desencadenantes de eventos:
+
+La botella "Bébeme": Podría contener un mensaje oculto revelado al interactuar con ella, o al combinarla con otro objeto.
+El reloj del Conejo Blanco: Podría usarse para "rebobinar" el tiempo unos segundos, dando una segunda oportunidad en una decisión crucial o en un minijuego, o activar una secuencia en la que el tiempo se distorsiona durante un interrogatorio.
+La llave dorada: Podría abrir una caja fuerte, un diario o una habitación secreta, revelando pistas cruciales.
+El pastel "Cómeme": Podría ser una pista falsa, o tener un efecto inesperado en quien lo consuma, abriendo nuevas líneas de investigación.
+Dificultad de un Árbol de Diálogos Dinámico con Yarn Spinner:
+
+Yarn Spinner, en esencia, es un sistema basado en nodos y conexiones. Crear un árbol de diálogos dinámico con Yarn Spinner es factible, pero su complejidad dependerá de cuán dinámico quieras que sea.
+
+Complejidad Baja (Relativamente Fácil): Si la dinámica se limita a mostrar/ocultar opciones de diálogo basadas en variables booleanas (ej. has_evidence_A), la implementación es bastante sencilla con las funciones condicionales de Yarn Spinner.
+Complejidad Media (Moderadamente Difícil): Si quieres modificar el texto del diálogo en función de variables o el estado del juego, también es posible, pero requiere un uso más avanzado de las funciones de Yarn Spinner y un buen sistema de variables.
+Complejidad Alta (Difícil): Si buscas una dinámica que altere la estructura misma del árbol de diálogos (ej. añadir o eliminar nodos en tiempo real), la implementación se vuelve significativamente más compleja y podría requerir extensiones o modificaciones al propio Yarn Spinner.
+En resumen, un árbol de diálogos dinámico básico es alcanzable con Yarn Spinner sin demasiadas complicaciones. Sin embargo, para una dinámica más compleja, la dificultad aumenta y requerirá mayor planificación y experiencia con la herramienta.
+
+
+=============================================================================================
+El MVP (Producto Mínimo Viable) para Where is Alicia? debería enfocarse en la mecánica central del juego y en validar la premisa principal: la tensión de un interrogatorio contrarreloj.
+
+Características Esenciales del MVP:
+
+Un solo sospechoso: El jugador interactúa con un único personaje sospechoso.
+Entorno único: Un solo fondo representando la sala de interrogatorios.
+Diálogos con Ramificaciones Simples: El árbol de diálogos debe tener ramificaciones, pero limitadas a unas pocas decisiones clave que influyen en el final.
+Minijuego de la Barra de Presión: Implementa el minijuego de la barra de presión para simular la intensidad del interrogatorio.
+Tiempo Límite: El reloj de 20 minutos debe ser funcional y crear la presión del tiempo real.
+Tres Finales: Un final bueno, uno malo y uno neutral, determinados por las decisiones del jugador y su desempeño en el minijuego.
+Arte Minimalista: Utiliza placeholders o assets pre-fabricados simples para el fondo y el personaje. Prioriza la funcionalidad sobre la estética en esta etapa.
+Sonido Básico: Implementa efectos de sonido básicos para los diálogos y el minijuego. La música puede ser opcional en esta etapa.
+Flujo del Juego (MVP):
+
+Introducción breve que presenta la situación: Alicia ha sido secuestrada y el jugador tiene 20 minutos para interrogar al sospechoso.
+El interrogatorio comienza. El jugador ve al sospechoso y el reloj en pantalla.
+El jugador elige opciones de diálogo que influyen en la actitud del sospechoso y desbloquean nuevas líneas de conversación.
+El minijuego de la barra de presión aparece en momentos clave del interrogatorio. El jugador debe mantener la barra en el nivel óptimo para obtener información.
+Dependiendo de las decisiones del jugador y su desempeño en el minijuego, el juego llega a uno de los tres finales.
+Objetivo del MVP:
+
+Validar la mecánica central del juego (interrogatorio contrarreloj y minijuego).
+Probar la experiencia de juego y la sensación de tensión.
+Obtener feedback temprano sobre la narrativa y los diálogos.
+Identificar posibles problemas técnicos o de diseño.
+Una vez validado el MVP y recopilado el feedback, se pueden añadir gradualmente las características adicionales planeadas, como más sospechosos, entornos, diálogos complejos, etc., para construir la versión completa del juego.
+
+
+
+Dado que el juego se centra en la desaparición de Alicia y la atmósfera oscura inspirada en Tim Burton, el sospechoso ideal para el MVP debería ser alguien con una conexión creíble con la niña, pero al mismo tiempo, poseer una personalidad ambigua que mantenga al jugador en suspenso.
+
+Opción 1: El Conejo Blanco (Reinterpretado):
+
+Conexión con Alicia: El Conejo Blanco es un personaje icónico de Alicia en el País de las Maravillas. En este contexto, podría ser un cuidador, un familiar lejano o incluso un amigo de la familia con una obsesión malsana por Alicia.
+Personalidad: Nervioso, evasivo, con cambios bruscos de humor. Su nerviosismo podría interpretarse como culpabilidad o simplemente como miedo a las consecuencias. Podría dejar caer pistas contradictorias, jugando con la percepción del jugador. En lugar de la clásica imagen del Conejo Blanco apresurado, imagínalo con una apariencia más inquietante, con tics nerviosos y una mirada huidiza.
+Opción 2: La Sombra Deformada:
+
+Conexión con Alicia: Una figura misteriosa que siempre ha estado presente en la vida de Alicia, acechándola desde las sombras. Podría ser una metáfora de un trauma pasado o una personificación de sus miedos.
+Personalidad: Enigmática, manipuladora, con un tono de voz suave y amenazante. Sus respuestas serían ambiguas, llenas de dobles sentidos y juegos mentales. Su apariencia física sería distorsionada y oscura, reflejando su naturaleza siniestra.
+Opción 3: El Juguete Olvidado:
+
+Conexión con Alicia: Un juguete antiguo y siniestro que Alicia guardaba en su habitación. El juguete podría estar poseído o tener una conexión sobrenatural con la desaparición de la niña.
+Personalidad: Inquietante, infantil, con una voz distorsionada y perturbadora. Sus respuestas podrían ser canciones de cuna macabras o frases repetitivas que desestabilizan al jugador. Su diseño debería ser grotesco y perturbador, contrastando con la imagen inocente de un juguete.
+Recomendaciones para el Diseño del Sospechoso:
+
+Motivación Ambigua: La motivación del sospechoso no debe ser evidente desde el principio. El jugador debe dudar de su culpabilidad hasta el final.
+Diálogos Reveladores: Los diálogos deben ser cuidadosamente escritos para proporcionar pistas sutiles sobre la verdad, pero al mismo tiempo, mantener la ambigüedad y el misterio.
+Reacciones Variadas: El sospechoso debe reaccionar de forma diferente a las preguntas y a la presión del jugador, mostrando una gama de emociones que añadan profundidad a su personalidad.
+Independientemente del sospechoso que elijas, la clave es crear un personaje intrigante y memorable que mantenga al jugador enganchado hasta el final.
+
+
+
+¡Esa es una historia de fondo fascinante para el Conejo Blanco! Añade mucha profundidad al personaje y a su posible motivación para el secuestro de Alicia. Aquí te presento algunas ideas sobre cómo integrar este trasfondo en el juego:
+
+Motivaciones del Conejo Blanco:
+
+Venganza contra Juno y Cheshire: El Conejo Blanco podría haber secuestrado a Alicia como venganza por su exilio. Alicia podría ser un ser querido de Juno o Cheshire, o simplemente una víctima inocente utilizada como peón en su juego de venganza.
+Recuperar el Poder: El secuestro podría ser parte de un plan más grande para recuperar el poder en el País de las Maravillas. Alicia podría ser la clave para acceder a algún tipo de poder o artefacto mágico.
+Desestabilizar el País de las Maravillas: El Conejo Blanco podría estar sembrando el caos y la destrucción en el País de las Maravillas como una forma de vengarse por su exilio. El secuestro de Alicia sería un acto de terrorismo para infundir miedo y desconfianza.
+Manipulación: El Conejo Blanco podría estar manipulando a Juno para que haga su trabajo sucio, usando el secuestro de Alicia como distracción mientras él lleva a cabo sus verdaderos planes.
+Implicaciones para el Juego:
+
+Diálogos: Los diálogos entre Juno y el Conejo Blanco estarían cargados de tensión y resentimiento. El Conejo Blanco podría burlarse de Juno, recordándole su pasado y la responsabilidad que tuvo en su exilio.
+Minijuego de la Barra de Presión: La presión en el minijuego podría aumentar cuando se toquen temas relacionados con el pasado del Conejo Blanco, reflejando la agitación emocional de Juno.
+Pistas y Revelaciones: A lo largo del interrogatorio, se podrían revelar pistas sobre el intento de golpe de estado y la participación de Juno y Cheshire. Estas revelaciones podrían añadir una capa de misterio a la historia y hacer que el jugador cuestione la verdadera naturaleza del Conejo Blanco.
+Finales: El trasfondo del Conejo Blanco podría influir en los diferentes finales del juego. Por ejemplo, un final podría implicar que el Conejo Blanco escapa y jura vengarse, dejando la puerta abierta para una secuela.
+Ideas Adicionales:
+
+Cheshire como Personaje Clave: Cheshire podría aparecer en el juego a través de flashbacks o incluso como un segundo sospechoso. Su relación con Juno y su participación en el exilio del Conejo Blanco podrían ser exploradas en mayor profundidad.
+El País de las Maravillas como Escenario: Aunque el juego se centra en el interrogatorio, se podrían incluir elementos visuales o descripciones que hagan referencia al País de las Maravillas y a su estado actual de caos.
+Este trasfondo proporciona un rico contexto para el personaje del Conejo Blanco y añade una dimensión interesante a la narrativa del juego. Aprovecha esta historia para crear un interrogatorio lleno de tensión, misterio y revelaciones sorprendentes.
+
+Tienes un punto importante. Si Where is Alicia? se plantea como una secuela de un juego anterior protagonizado por Juno donde ya se reveló la naturaleza monstruosa del Conejo Blanco, la dinámica del nuevo juego cambia y debes considerar cómo mantener el misterio y la tensión.
+
+Aquí te presento algunas ideas para manejar esta situación:
+
+1. El Conejo Blanco Evoluciona:
+
+Nueva Forma, Nuevas Motivaciones: Si bien su naturaleza monstruosa es conocida, el Conejo Blanco podría haber evolucionado. Quizás adquirió nuevas habilidades, una personalidad más retorcida o motivaciones diferentes a las del juego anterior. Esto introduce un elemento de sorpresa y evita que sea simplemente una repetición del pasado.
+
+Mayor Peligro: El hecho de que Juno ya lo conozca podría hacerlo aún más peligroso. Él conoce sus métodos, sus debilidades, y podría usar esa información en su contra.
+
+2. El Misterio No es "Quién", sino "Por Qué":
+
+El enfoque del juego no sería descubrir quién secuestró a Alicia, sino por qué el Conejo Blanco lo hizo. ¿Cuáles son sus verdaderos motivos? ¿Qué busca conseguir con este nuevo crimen?
+
+Se podrían introducir nuevos personajes y subtramas que compliquen la situación y desvíen la atención del Conejo Blanco, al menos temporalmente.
+
+3. Enfócate en la Relación Juno-Conejo Blanco:
+
+Explora la historia entre Juno y el Conejo Blanco. ¿Qué cicatrices emocionales dejó el enfrentamiento anterior? ¿Cómo afecta su pasado a la dinámica del interrogatorio?
+
+El juego podría centrarse en el conflicto psicológico entre ambos personajes, en la batalla de ingenio y manipulación.
+
+4. Introduce un Giro Argumental:
+
+A mitad del juego, se podría revelar que el Conejo Blanco no es el verdadero culpable. Quizás esté siendo manipulado o esté protegiendo a Alicia de una amenaza aún mayor. Esto reintroduce el elemento de misterio y obliga al jugador a replantearse sus suposiciones.
+5. Alicia como Personaje Clave:
+
+Explora la relación entre Alicia y el Conejo Blanco. ¿Se conocen de antes? ¿Hay alguna conexión especial entre ellos? Esto podría añadir una capa emocional a la historia y dar más peso al secuestro.
+En resumen: Aunque la identidad del Conejo Blanco como "monstruo" sea conocida, aún hay muchas maneras de crear una narrativa interesante y llena de suspense. Céntrate en el "por qué", explora la relación entre los personajes e introduce giros argumentales para mantener al jugador enganchado.
+
+
+
+Tienes un punto importante. Si Where is Alicia? se plantea como una secuela de un juego anterior protagonizado por Juno donde ya se reveló la naturaleza monstruosa del Conejo Blanco, la dinámica del nuevo juego cambia y debes considerar cómo mantener el misterio y la tensión.
+
+Aquí te presento algunas ideas para manejar esta situación:
+
+1. El Conejo Blanco Evoluciona:
+
+Nueva Forma, Nuevas Motivaciones: Si bien su naturaleza monstruosa es conocida, el Conejo Blanco podría haber evolucionado. Quizás adquirió nuevas habilidades, una personalidad más retorcida o motivaciones diferentes a las del juego anterior. Esto introduce un elemento de sorpresa y evita que sea simplemente una repetición del pasado.
+
+Mayor Peligro: El hecho de que Juno ya lo conozca podría hacerlo aún más peligroso. Él conoce sus métodos, sus debilidades, y podría usar esa información en su contra.
+
+2. El Misterio No es "Quién", sino "Por Qué":
+
+El enfoque del juego no sería descubrir quién secuestró a Alicia, sino por qué el Conejo Blanco lo hizo. ¿Cuáles son sus verdaderos motivos? ¿Qué busca conseguir con este nuevo crimen?
+
+Se podrían introducir nuevos personajes y subtramas que compliquen la situación y desvíen la atención del Conejo Blanco, al menos temporalmente.
+
+3. Enfócate en la Relación Juno-Conejo Blanco:
+
+Explora la historia entre Juno y el Conejo Blanco. ¿Qué cicatrices emocionales dejó el enfrentamiento anterior? ¿Cómo afecta su pasado a la dinámica del interrogatorio?
+
+El juego podría centrarse en el conflicto psicológico entre ambos personajes, en la batalla de ingenio y manipulación.
+
+4. Introduce un Giro Argumental:
+
+A mitad del juego, se podría revelar que el Conejo Blanco no es el verdadero culpable. Quizás esté siendo manipulado o esté protegiendo a Alicia de una amenaza aún mayor. Esto reintroduce el elemento de misterio y obliga al jugador a replantearse sus suposiciones.
+5. Alicia como Personaje Clave:
+
+Explora la relación entre Alicia y el Conejo Blanco. ¿Se conocen de antes? ¿Hay alguna conexión especial entre ellos? Esto podría añadir una capa emocional a la historia y dar más peso al secuestro.
+En resumen: Aunque la identidad del Conejo Blanco como "monstruo" sea conocida, aún hay muchas maneras de crear una narrativa interesante y llena de suspense. Céntrate en el "por qué", explora la relación entre los personajes e introduce giros argumentales para mantener al jugador enganchado.
+
+
+
+==================================================================================================
+Mecánicas de Where is Alicia? en orden de importancia:
+
+Diálogos con ramificaciones: Es la mecánica central de una novela visual. Permite al jugador interactuar con la historia y tomar decisiones que afectan el desarrollo de la trama. Esencial para el MVP.
+
+Sistema de tiempo límite: La presión del tiempo real es un elemento clave que define la experiencia de juego. Esencial para el MVP.
+
+Minijuego de la barra de presión: Añade un elemento interactivo al interrogatorio y representa la tensión del momento. Esencial para el MVP.
+
+Múltiples finales: La posibilidad de llegar a diferentes finales en función de las decisiones del jugador incentiva la rejugabilidad. Esencial para el MVP (al menos 3 finales).
+
+Presentación de pistas/evidencias: Aunque no es esencial para el MVP, un sistema para presentar las pistas o evidencias obtenidas durante el interrogatorio enriquecería la experiencia y podría integrarse con el minijuego.
+
+Mecánicas Esenciales para el MVP:
+
+Diálogos con ramificaciones (simplificadas): El árbol de diálogos debe ser funcional, pero no necesita ser excesivamente complejo en esta etapa.
+Sistema de tiempo límite (20 minutos): El reloj en tiempo real debe funcionar correctamente y crear la presión del tiempo limitado.
+Minijuego de la barra de presión (versión básica): La mecánica principal del minijuego debe estar implementada y ser jugable.
+Tres finales: Un final bueno, uno malo y uno neutral, determinados por las decisiones del jugador y su desempeño en el minijuego.
+
+
+===========================================================================================
+En una novela visual donde la protagonista, Juno, tiene una personalidad definida y el jugador es quien menos sabe qué está pasando, la clave para mantener el interés radica en cómo se dosifica la información y cómo se utiliza la perspectiva de Juno para crear intriga y misterio.
+
+Duración de la Narrativa:
+
+Para un juego móvil con un tiempo límite de 20 minutos, la narrativa debe ser concisa y enfocada. Recomiendo una duración de juego que se traduzca en unas 2000-3000 palabras de diálogo aproximadamente. Esto equivale a una lectura de entre 10 y 15 minutos, dejando el resto del tiempo para la interacción del jugador con el minijuego y las decisiones. Es crucial evitar textos largos y redundantes. Prioriza la calidad sobre la cantidad.
+
+Enfoque Narrativo:
+
+Misterio Gradual: La información sobre el secuestro de Alicia y la conexión del Conejo Blanco debe revelarse gradualmente a lo largo del interrogatorio. Comienza con preguntas generales y ve profundizando a medida que el jugador avanza.
+Perspectiva de Juno: Filtra la información a través de la perspectiva de Juno. Ella tiene su propia historia con el Conejo Blanco, sus prejuicios y sus sospechas. El jugador descubre la verdad junto con Juno, pero también debe cuestionar si ella está viendo la situación con objetividad.
+Diálogos Significativos: Cada línea de diálogo debe tener un propósito. Debe avanzar la trama, revelar información sobre los personajes o crear tensión e intriga. Evita el relleno innecesario.
+El Conejo Blanco como Enigma: El Conejo Blanco debe ser un personaje enigmático y contradictorio. Sus respuestas deben ser ambiguas, dejando al jugador con la duda de si dice la verdad o está manipulando a Juno.
+Giros Argumentales: Introduce giros argumentales que desafíen las expectativas del jugador y lo obliguen a replantearse lo que cree saber. Esto mantendrá la historia fresca e impredecible.
+Técnicas para Mantener el Interés:
+
+Preguntas sin Respuesta: Plantea preguntas intrigantes al principio del juego y retrasa las respuestas para mantener al jugador enganchado.
+Cliffhangers: Termina cada sección del interrogatorio con un cliffhanger que incite al jugador a continuar.
+Información Contradictoria: Presenta información contradictoria que haga que el jugador cuestione la veracidad de las diferentes versiones de la historia.
+Metáforas y Simbolismo: Utiliza metáforas y simbolismo para añadir profundidad a la narrativa y crear una atmósfera inquietante.
+Conexión Emocional: Desarrolla una conexión emocional entre el jugador y Alicia. Haz que el jugador se preocupe por su destino y se sienta motivado para encontrarla.
+Recuerda que, al ser Juno la que más información posee, el jugador dependerá de su perspectiva. Juega con esto, presentando la información de forma sesgada o incompleta al principio, para luego revelar la verdad poco a poco, manteniendo al jugador intrigado y con ganas de saber más.
+
+
+
+======================================================================================================
+Dado el contexto que has proporcionado, Juno y el Conejo Blanco necesitan personalidades fuertes y contrastantes para que el interrogatorio sea atractivo. Aquí te propongo algunos enfoques:
+
+Juno:
+
+Cínica y Hastiada: Juno ha visto demasiado en su carrera como detective. Es escéptica, sarcástica y no se anda con rodeos. Tiene poca paciencia para las mentiras y la manipulación.
+Determinada y Obstinada: No se rinde fácilmente. Está decidida a encontrar a Alicia y hará lo que sea necesario para obtener la verdad del Conejo Blanco.
+Vulnerable: A pesar de su exterior duro, Juno se preocupa profundamente por las víctimas y se ve afectada por los casos que investiga. El secuestro de Alicia podría tocar una fibra sensible en ella, especialmente si hay una conexión con su pasado.
+Con un Pasado Oscuro: Su historia con el Conejo Blanco y el País de las Maravillas sugiere un pasado complejo y posiblemente traumático. Esto podría manifestarse en forma de pesadillas, flashbacks o reacciones emocionales inesperadas.
+El Conejo Blanco:
+
+Manipulador y Engañoso: El Conejo Blanco es un maestro de la manipulación. Utiliza el engaño, las medias verdades y los juegos mentales para confundir a Juno y desviar la atención de sus verdaderos motivos.
+Arrogante y Despectivo: Se considera superior a Juno y a los demás humanos. Su arrogancia podría manifestarse en forma de sarcasmo, burlas y amenazas veladas.
+Impredecible: Sus cambios de humor y sus reacciones inesperadas mantienen a Juno (y al jugador) en vilo. Nunca se sabe qué esperar de él.
+Con un Toque de Locura: Su exilio del País de las Maravillas y sus posibles conexiones con lo sobrenatural podrían haber afectado su salud mental. Podría tener delirios de grandeza, alucinaciones o una percepción distorsionada de la realidad.
+Dinámica entre Juno y el Conejo Blanco:
+
+La interacción entre ambos personajes debe ser un choque de titanes. Juno, con su cinismo y determinación, contra el Conejo Blanco, con su manipulación y arrogancia. El jugador debe sentir la tensión y la hostilidad entre ellos en cada línea de diálogo.
+
+Ejemplos de Interacción:
+
+Juno: "No juegues conmigo, Conejo. Sé lo que hiciste."
+
+Conejo Blanco: "¿Ah, sí? ¿Y qué es lo que crees que hice, querida Juno? Tu memoria no es tan fiable como solía ser."
+
+Juno: "Dónde está Alicia?"
+
+Conejo Blanco: "Alicia está en un lugar maravilloso. Un lugar mucho mejor que este sucio mundo."
+
+El contraste entre las personalidades de Juno y el Conejo Blanco es crucial para crear una experiencia de juego atractiva e intensa. La clave es encontrar el equilibrio entre la seriedad de la situación y el toque de locura que caracteriza al mundo de Alicia en el País de las Maravillas.

@@ -1,0 +1,135 @@
+title: Loop
+tags: Loop
+colorID: 0
+position: 956,-302
+---
+<<declare $CharNameLoop = "Loop">>
+<<if  $IsYes_Tour is false && $IsMutantDialog is false && visited("Loop") is false>>   
+   
+    Loop: Hola que tal? 
+    
+    Loop: Soy Loop
+   
+-> Loop: Y tu eres?.
+    <<jump Loop_Respond>>
+
+<<elseif  $IsYes_Tour is true && $IsMutantDialog is false>>
+    Loop: hehe, vamos!.
+    <<stop>> 
+
+<<elseif $IsMutantDialog is true>>
+  Loop: No me hables, eres un cretino.
+  <<stop>> 
+
+<<elseif $Loop_Responde is true>>
+ Loop: No e visto a nadie. cuando lo haga, se lo hare Saber.
+ Loop: Haha.
+
+<<elseif visited("Loop") is true>>
+ Loop: ha?.
+
+<<endif>>
+===
+title: Soy_Player
+tags: Loop
+colorID: 0
+position: 524,259
+---
+Loop: El gusto es mio.
+Loop: Que amable.
+Loop: Parece que no es de por aqui,
+Loop: que tal si le doy un tour por el lugar.
+Loop: si quiere claro?.
+
+-> Player: si
+    <<jump Yes_Tour>>
+-> Player: no
+    <<jump No_Tour>>
+
+===
+title: Haz_Visto_A_Una_Niña
+tags: Loop
+colorID: 8
+position: 972,420
+---
+Loop:Yo.. 
+Loop:Esto....
+Loop:No..
+Loop:No e visto a ninguna, lo lamento.
+
+-> Loop: Es su hija?
+    <<jump Es_Su_hija>>
+===
+title: Loop_Respond
+tags: Loop Player
+colorID: 0
+position: 949,-5
+---
+-> Soy_Player: Soy Player, un gusto.
+    <<jump Soy_Player>>
+-> Haz_Visto_A_Una_Niña: Haz visto a una niña?
+    <<jump Haz_Visto_A_Una_Niña>>
+-> Eres_Un_Mutante: Eres un mutante o algo asi?.
+    <<jump Eres_Un_Mutante>>
+===
+title: Es_Su_hija
+tags: Loop Player
+colorID: 0
+position: 968,744
+---
+Player: No, Soy un detective privado.
+Player: Su familia me contrato para encontrarla.
+Player: Cualquier informacion, por mas pequeña que sea.
+Player: Seria de mucha Utilidad, jove.
+<<jump Loop_Responde>>
+
+===
+title: Eres_Un_Mutante
+tags: Loop Save
+colorID: 0
+position: 1403,411
+---
+Loop:Que?!, NO!
+Loop:Soy una persona normal!.
+Loop:Que grosero de tu parte.
+
+<<set $IsMutantDialog to true>>
+<<NormalEnd>>
+<<stop>>
+
+===
+title: No_Tour
+tags: Loop Player
+colorID: 8
+position: 571,726
+---
+Player:No gracias, estoy bien.
+Player:Le agradezco su cooperacion
+<<NormalEnd>>
+
+<<stop>>
+
+===
+title: Yes_Tour
+tags: Loop Player
+colorID: 8
+position: 247,726
+---
+Player:Gracias, seria de gran ayuda.
+<<set $IsYes_Tour to true>>
+<<EndTerror>>
+<<stop>>
+===
+title: Loop_Responde
+tags: Loop player Save
+colorID: 0
+position: 961,1026
+---
+Loop: Lo hare!, 
+Loop: se lo prometo.
+Loop: hehe.
+<<set $Loop_Responde to true >>
+<<NormalEnd>>
+<<stop>>
+
+===

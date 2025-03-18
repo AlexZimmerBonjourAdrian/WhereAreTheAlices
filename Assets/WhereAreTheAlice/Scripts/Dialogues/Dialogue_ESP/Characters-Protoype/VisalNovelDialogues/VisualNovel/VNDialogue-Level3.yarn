@@ -1,0 +1,84 @@
+﻿title: StartVisual
+tags: 
+colorID: 0
+position: 0,0
+---
+<<if visited("StartVisual") is false>>
+// sets background image to sprite called "bg_office"
+<<Scene bg_Level03>>
+// start playing audioclip "ambient_birds" at 50% volume, loop forever
+<<PlayAudio ambient_birds 0.5 loop>>
+
+A VISUAL NOVEL EXAMPLE #line:079a53a 
+
+// adds actor named "Eve" using sprite "cool-girl", placed in left-half + center of screen, with green text label
+<<Act Moffin 1-Moffin-Neutral left center green>>
+
+Moffin: Finally, a quiet day at the office. Maybe I'll be able to get some work done. #line:0077451 
+
+// adds actor "Adam" with sprite "biz-guy" off-screen right, with blue-ish text label
+<<Act Loop 1-Loop-Neutral 1.25 center #226677>>
+
+// animate Adam into new position in right-half + center, within 0.5 seconds
+<<Move Loop right center 0.5>>
+<<PlayAudio music_funny 1.0 loop>>
+
+Loop: Hey loop! I have a question! #line:01ac81b 
+Moffin: Oh no... #line:050508f 
+
+// horizontally flips Eve actor to face Adam
+<<Flip Moffin>>
+
+// Yarn shortcut choices, an easy way to make branching options
+-> Moffin gets upset with Loop #line:040dbd9 
+	<<Shake Moffin 1.0>>
+	Moffin: WHAT DO YOU WANT??? #line:04a8df4 
+	Loop: I just wanted to see if you liked using Yarn Spinner. #line:08cb93a 
+	Moffin: ... It's fine. Thanks. Now leave me alone. #line:0a8b93c 
+-> Loop asks Moffin a question #line:07134b2 
+	Loop: Do you think Yarn Spinner is easy to use? #line:06754a7 
+	Moffin: Not when you're bothering me. #line:0103f62 
+	Loop: Oh, I didn't realize you were busy. Sorry. #line:03d7a41 
+
+// hide Adam actor and remove from the scene
+<<Hide Loop>>
+// Stop all sound playback
+<<StopAudioAll>>
+
+Moffin: Ok, now to finally write that visual novel. #line:01ffc7f 
+<<Flip Moffin>>
+<<PlayAudio music_romantic>>
+Moffin: I can finally write my epic romance about - #line:03e4356 
+<<StopAudioAll>>
+<<Flip Moffin>>
+<<wait 1.5>>
+<<Flip Moffin>>
+Moffin: Wait... where's my laptop? It's not here. #line:0849e1f 
+<<Shake Moffin>>
+Moffin: Loop! Have you seen my laptop??? #line:0b79168 
+
+<<PlayAudio music_funny>>
+<<Flip Moffin>>
+<<Move Moffin 1.25 center 1.0>>
+Moffin: LOOOOOOOOP!!! #line:025666e 
+
+// fade to black, from 0% opacity to 100% opacity, in 2.0 seconds
+
+THE END. #line:04f0c87 
+<<Fade black 0.0 1.0 2.0>>
+<<StopAudioAll>>
+<<jump EndVN>>
+<<endif>>
+
+
+===
+title: EndVN
+---
+tags:  #line:0374ff4 
+colorID: 0 #line:01bf792 
+position: 0,0 #line:0815dc0 
+--- #line:05b09b1 
+
+ <<HideAll>>
+ <<stop>>
+===

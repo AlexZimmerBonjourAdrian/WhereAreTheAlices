@@ -1,0 +1,16 @@
+{
+  "projectFileVersion": 2,
+  "sourceFiles": [
+    "**/*.yarn"
+  ],
+  "excludeFiles": [
+    "**/*~/*"
+  ],
+  "localisation": {
+    "en": {
+      "strings": "Case01_WhiteRabbit_ESP\\Case01_WhitheRabbit_Normal.yarn"
+    }
+  },
+  "baseLanguage": "es",
+  "compilerOptions": {}
+}
