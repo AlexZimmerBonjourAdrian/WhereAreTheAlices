@@ -38,7 +38,7 @@ public class CManagerSFX : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-        DontDestroyOnLoad(this.gameObject);
+      //  DontDestroyOnLoad(this.gameObject);
         _inst = this;
 
         runner = CManagerDialogue.Inst.GetDialogueRunner();

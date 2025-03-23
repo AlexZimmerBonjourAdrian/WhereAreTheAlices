@@ -226,8 +226,5 @@
       "Type": "System.Single"
     }
   ],
-  "DialogueHistory": [
-    "InterruptRight",
-    "InterruptLeft"
-  ]
+  "DialogueHistory": []
 }

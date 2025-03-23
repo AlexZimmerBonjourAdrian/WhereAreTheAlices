@@ -32,7 +32,7 @@ namespace wherearethealices
             Destroy(gameObject);
             return;
         }
-        DontDestroyOnLoad(this.gameObject);
+    //    DontDestroyOnLoad(this.gameObject);
         _inst = this;
     }
 //MVP GameStateMachine Finite Machine State Level

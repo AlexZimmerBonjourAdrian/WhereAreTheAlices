@@ -15,7 +15,8 @@ EditorBuildSettings:
     path: Assets/WhereAreTheAlice/Scenes/Interview-MVP/Levels/Interrogatorie-Case-01.unity
     guid: 166a0eb8c908f6844a35c0237ec4874b
   m_configObjects:
-    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 93eb7ba1d624ca74894c0b95b95ae1ed,
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 3467c3cc2915276488476041a13ae169,
       type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
       guid: 8a3e1f64007566b48a923bea3796ec23, type: 2}
+  m_UseUCBPForAssetBundles: 0

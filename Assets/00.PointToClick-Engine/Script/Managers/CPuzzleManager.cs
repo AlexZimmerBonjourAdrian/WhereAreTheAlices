@@ -30,7 +30,7 @@ public class CPuzzleManager : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-        DontDestroyOnLoad(this.gameObject);
+     //  DontDestroyOnLoad(this.gameObject);
         _inst = this;
     }
 }

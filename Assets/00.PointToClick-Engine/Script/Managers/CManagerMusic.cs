@@ -32,7 +32,7 @@ public class CManagerMusic : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-        DontDestroyOnLoad(this.gameObject);
+   
         _inst = this;
 
         runner = CManagerDialogue.Inst.GetDialogueRunner();

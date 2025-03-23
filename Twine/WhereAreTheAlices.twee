@@ -1,0 +1,2381 @@
+:: StoryTitle
+WhereAreTheAlices
+
+
+:: StoryData
+{
+  "ifid": "702787AE-0EF0-4CE7-876A-D317B616CAB4",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "INTRO_Introduccion",
+  "zoom": 1
+}
+
+
+:: CHOICE_Couetear {"position":"1350,1000","size":"100,100"}
+title: CHOICE_Couetear
+tags: White_Rabbit
+colorID: 0
+position: 956,-302
+---
+//TODO:
+El conejo couetea usa todos los trucos ue conoce para coneuetear con una mujer aunue sus metodos son de una adolcenete coueto, mas ue el de un adulto.
+algo ue a Juno le parece mas ue ridiculo y le insita a ser como un adulto.
+CB se vurla de ella y le dice ue lo intente
+Y ella le couetea de una forma ue a el le hace bajar la guardia, en el acto
+Usandolo para ue le diga donde esta alicia.
+
+
+
+[[SCENE_Respuesta_De_Juno]]
+===
+
+
+:: CHOICE_Decirle_Mis_Razones {"position":"1100,1000","size":"100,100"}
+title: CHOICE_Decirle_Mis_Razones
+tags: White_Rabbit
+colorID: 0
+position: 956,-302
+---
+//TODO:
+CB le dice sus razones reales atraves de subtexto e irionia.
+atraves de anegdotas y flashbacks, intentando cubrir su dolor con humor, revelado informacion a cuentagotas.
+Hablando de su vida.
+De Cheshire.
+Y de e pais en ordenes dispersos.
+
+Juno lo escucha con atencion y da un resume de todo, sacando sus conclusiones, de forma acertiva, usando tacticas de Persuacion aprendidas en su oficio con calma para desarmarlo y lograr una confesion, aunue no funciona ya ue CB conoce como funcionana cada uno de estos metodos.
+uiere analizar y desentrañar su mente por eu realmente lo hace por ue uiere hacer esto reamente.
+
+
+[[SCENE_FinalHeroe]]
+===
+
+
+:: CHOICE_Dejarla_Morir {"position":"300,825","size":"100,100"}
+title: CHOICE_Dejarla_Morir
+tags: Loop
+colorID: 8
+position: 869,161
+---
+
+if(Visited one)
+Juno:«No... No jamas hare algo asi»
+
+Juno:«Alicia depende de mi.., eso es lo unico ue importa»
+
+
+
+
+->[Héroe]Decidir Rescatar a alicia
+[[CHOICE_Rescate_Heroe]]
+
+[[CHOICE_Dejarla_Morir_2]]
+
+->[Oscura]Matar al conejo blanco
+[[CHOICE_Matar_al_conejo_blanco]]
+
+===
+
+
+
+:: CHOICE_Dejarla_Morir_2 {"position":"300,1000","size":"100,100"}
+title: CHOICE_Dejarla_Morir
+tags: Loop
+colorID: 8
+position: 869,161
+---
+
+if(Visited one)
+Juno:«Te dije ue no!!, dejame tranuila no voy a abandonarla!!!, me escuchas!»
+
+Juno:«No abandonare a esa niña jamas!, me oyes!»
+
+
+Juno:«Ahora elige sabiamente, una inocente esta en riesgo, si...seas lo ue seas eu estes hay»
+
+->[Héroe]Decidir Rescatar a alicia
+[[CHOICE_Rescate_Heroe]]
+
+->[Oscura]Matar al conejo blanco
+[[CHOICE_Matar_al_conejo_blanco]]
+
+===
+
+
+:: CHOICE_Epilogo_1_Detective {"position":"675,1425","size":"100,100"}
+title: CHOICE_Epilogo_1_Detective
+tags: Loop
+colorID: 8
+position: 972,420
+—
+//CHOICE_Epilogo_1_Detective
+#Juno va a visitar a CB en el hospital
+#se encuentran y charlan
+#se introduce una relación pasada, familiar incluso amistosa.
+#Hay una batalla verbal entre ellos dos.
+#se introduce el personaje de Nico que conecta ambas historias y vocaliza lo que el público está pensando, revelando algunos datos interesantes y un conflicto futuro.
+
+
+Unas puertas automáticas se activan, con suave silbido, una alta figura vestida de forma profesional con una gabardina, botas y un pantalón de tela gruesa se hace presente orejas largas ojos ámbar, era Juno dirigiéndose a la recepción entablando conversación con la encargada de guardia.
+
+
+???: buenas tardes, nombre por favor?
+
+
+Juno:Juno.
+
+
+La encargada revisa la lista y le regresa la mirada a la detective.
+
+
+???:lo lamento pero no está en la lista de visitas.
+
+
+Juno:vengo a relevar al guardia que lo custodia.
+
+
+Saca su placa confirmando su declaración.
+
+
+
+
+???:Descuide, firme este documento de ingreso, y podrá pasar.
+
+
+Juno lo firma con su nombre finalizando con el dibujo rápido de una estrella con una calidad muy profesional.
+
+
+Juno deja su documento y se adentran por la puerta, el frío pasillo de color blanco mármol, y el olor a limpiador en el ambiente, casi como si fuera formal, era algo que la hacían aumentar su respiración.
+
+
+Sus pasos eran suaves y constantes, el sonido de respiradores a su alrededor le ponían los pelos de punta.
+
+
+Quería salir huyendo de ese lugar, quería no saber nada más del asunto, pero debía continuar.
+
+
+Juno respiró hondo unas, dos veces, su corazón se relajo, “no puede ser que un lugar de más miedo que la muerte” se dijo.
+
+
+Retomando su camino hacia donde estaba el conejo.
+
+
+Estaba centrada hasta que una voz familiar y burlona se escuchó a sus espaldas
+
+
+“Junie!! Tontita estoy aquí, no me viste? Necesitas anteojos, anciana.” Era el conejo siendo tan irritante como siempre.
+
+
+Juno no pudo evitar estar aliviada, apenas y podía hablar cuando lo dejó ir.
+
+
+Juno se adentra en la habitación, el sonido de un monitor cardíaco a su derecha la asusta de momento.
+“Espera escuché su voz, o estaba solo en mi cabeza?”
+
+
+El monitor se apagó en un momento para ser encendido nuevamente.
+
+
+Juno:...
+
+
+CB:Aparato de mierda, uno paga impuestos pero solo se los roban…(se percata de la presencia de Juno)
+CB:Oh! Mi preciosa Juno, viniste! Esto tengo que celebrarlo.
+Juno:...
+El pequeño conejo revela que tiene dos vasos de Whisky debajo de su cama de hospital junto con una botella llena.
+
+
+Juno:Como..cómo demonios te permitieron traer whisky aquí?.
+
+
+CB le extiende un vaso y él conserva el suyo en la otra mano.
+
+
+CB:Junie, tengo dinero recuerdas?, si eres rico puedes hacer lo que quieras.
+
+
+CB:Además no es ilegal traer whisky de Depalipa, es el más caro, Pruébalo, se que te va a encantar.
+
+
+Juno levanta una ceja.
+
+
+Juno:Algo me dice que está envenenado.
+
+
+El conejo se ríe sujetándose el costado.
+CB: Oh no-no-no. Ya dejé los juegos infantiles hace mucho, además los venenos son más caros que los explosivos, digo que el Te.
+
+
+Juno solo se sienta en el sofá aledaño a CB.
+
+
+Juno:Sírveme un trago.
+
+
+CB:como digas jefa(lo hace casi tarareando)
+
+
+Juno:te han dicho que eres peor que una plaga?
+
+
+CB:nada que unas palabras amables y una sonrisa desenfadada no arreglen.
+
+
+Juno:(niega con su cabeza)no vas a cambiar verdad?.
+
+
+CB suspira se estaba sirviendo su vaso solo dirigiendo sus ojos vino sangre a la coneja a su lado que la mira con intriga
+ 
+El pequeño ser deja el vaso a su lado en la mesa de noche.
+
+
+CB:El país me necesita Juno, así que no, eso es lo último que diré del asunto.
+
+
+Juno:Está bien para mi.
+
+
+CB:¿Por qué me visitas? Podrías simplemente haberme ignorado.
+
+
+Juno:Quería saber, que no te deje en silla de ruedas es todo.
+
+
+
+
+CB:No te creo, siempre miras hacia abajo al momento de mentir, abajo a la derecha para ser preciso.
+
+
+Juno:y tú finges, levantando el tono para parecerte a un niño, algo tétrico.
+
+
+CB:Auch.
+
+
+CB:¿Podemos dejar esto como, que ambos nos mentimos?.
+
+
+Juno:Si, eres un idiota sabes.
+
+
+CB:y tu una ingenua?.
+
+
+Juno:Me lo dice el señor, tengo todas las respuestas.
+
+
+CB:Oh! Al menos lo respaldo con hechos superheroína de cartón.
+
+
+Juno:Auch.
+
+
+CB:Bebe tu whisky o prefieres tomarlo caliente como el de tu cantimplora.
+
+
+Juno da un fuerte trago a su vaso como un borracho lo haría.
+
+
+CB:Dios tienes problemas…, no quieres enserio ir con un especialista o algo así.
+
+
+Juno deja su vaso a su lado limpiándose el whisky de sus labios.
+
+
+Juno:Estoy conforme como soy.
+
+
+CB:He, si yo igual.
+
+
+Juno:esto es tan nostálgico y a la vez incómodo.
+
+
+CB toma su vaso con delicadeza ante la atenta mirada de Juno.
+CB:No puedes dejar un filete enfrente de un caimán ambiente.
+Juno se ríe un poco.
+Juno:Desde cuándo usas jergas de Luisiana.
+CB:Desde hace tres años.
+CB:Funciona con las mujeres.
+Juno:Dios… que eres, un peligro..
+
+
+CB:Esos momentos en el país… si fueron genuinos..
+
+
+Juno:hmp?
+
+
+CB:Eras mi amiga, no por interés, no por dinero, suena triste pero eso me sorprendió.
+
+
+Juno:Es la primera vez que te veo tan abierto…
+
+
+CB:da igual…, yo me ocuparé de mis asuntos, tú de los tuyos, si nos cruzamos nuevamente seremos enemigos.
+
+
+Juno:Está bien para mi.
+
+
+Juno:Solo no te metas con los niños..
+
+
+CB:.... Sabiendo cómo terminó nuestra cita en el interrogatorio, lo mejor será que te haga caso, de depredador, a depredadora.
+
+
+Juno:....(Niega con la cabeza).
+
+
+Tocan la puerta de la habitación, una voz se hace presente.
+
+
+???:hola? ¿Puedo pasar?.
+
+
+Ambos estaban confundidos aunque no lo admitieran en el momento.
+Juno:esperabas a alguien?.
+
+
+CB:¿Y tú?.
+
+
+Entra una figura no era muy alto, su piel era bastante pálida, sus ojos tenían un color verde intenso, su cabello era un extraño color negro con blanco, su gabardina roja como la sangre, y su camisa malamente abotonada le daban un aspecto de todo menos serio.
+
+
+???: Hola, ¿cómo están?.(Dice con un tono animado y una sonrisa cálida)
+
+
+CB:Quien-mierda-es-este?
+
+
+Juno:ni…idea..
+
+
+???:ups, una disculpa me llamo Nico, vine a buscar a la detective Juno Azulie Star por un caso, un problema menor, aunque debo admitir que necesito ayuda con ello.
+
+
+CB empieza a partirse de la risa.
+
+
+CB:Azulie? Star!!, en serio me parto, no puede ser que tú padre te dio ese segundo nombre.
+
+
+CB:¿Y Star?, la próxima vez que te vea, te cantaré estrellita donde estás a todo pulmón.
+
+
+Juno:hmp, idiota, siempre comportandote de forma infantil.
+
+
+CB: ¿A la heroína le molesta?.
+
+
+Juno:que no cambiarás en 16 años, tu crees?
+
+
+CB:oh queréis Junie, eres tan adorable cuando te enfadas.
+
+
+Juno:sigue así y te tironeare esas orejas.
+
+
+CB:De veras!, por favor hazlo!!.
+
+
+Juno:...(Juno quería que la tragara la tierra)
+
+
+Nico se quedó viéndolos a ambos que parecieron segundos cuatro segundos.
+Nico:ehhh.., ¿ustedes dos son pareja , novios o algo?.
+
+
+Ambos contestan al unísono.
+
+
+“Eso quisiera él/ella”
+
+
+Nico:claaaro.., está bien, bueno si tiene tiempo libre señorita Juno, Detective, como prefiere que le diga.
+
+
+Juno:Juno está bien.
+
+
+Nico:oh! de forma informal, genial, gracias, es muy amable.
+Oh!, casi lo olvido.
+
+
+(Saca una tarjeta de su bolsillo)
+Nico:Aquí tiene, mañana le parece bien conversar del asunto, no soy mucho de reuniones corporativas, así que, va a ser muy informal.
+
+
+CB entrecierra los ojos.
+
+
+CB:oye no te he visto en alguna parte?
+
+
+Nico:??, no lo creo, tal vez me confundes con alguien más?
+
+
+CB:si.. claro.. el equivalente a un fantasma amigable, y algo siniestro es muy fácil de confundir.
+
+
+Nico se inca de hombros.
+
+
+Nico:En serio me confundes con alguien más.
+
+
+CB:(se recuesta en la cama sin dejar de mirar a Nico Con desde).
+
+
+Nico:bien, los dejo con su, bueno cita?.
+
+
+Ambos responden igual.
+
+
+“no es una cita” los dos se voltean a mirar entre sí.
+
+
+Nico:si no es una cita,y no son novios… entonces?por qué están bebiendo whisky?, por qué se llevan tan bien, y como terminan sus frases, tienen mucha química.
+
+
+Juno se queda estupefacta.
+
+
+CB se ríe nervioso.
+
+
+Nico:ups.. hablo de mas a veces, hablo en voz alta, adiós.
+
+
+Nico:Oh! Otra vez, la dirección está atrás de la tarjeta, la veré allí mañana a las 9.
+
+
+Juno:estaré.. hay, gracias.
+
+
+CB:si ya vete puto rarito.
+
+
+Nico: gracias, oh! ¡Una cosa más!.
+
+
+Nico: Señor Conejo Blanco, usted sabe algo de la familia roja?
+
+
+CB niega con la cabeza.
+
+
+CB:No, no, nada…, acabo de enterarme.
+
+
+Nico:oh! que mal, pensaba que podría ayudarme con algo también, es sobre negocios y usted es un experto, tengo entendido.
+
+
+CB:tus amigos saben bastante al parecer.
+
+
+Nico:digamos que son unos conspiranoicos.
+
+
+Nico:En fin, me voy.
+
+
+CB:...sabes, puedes visitarme y podemos conversar, en privado.
+
+
+Juno:te vas a acostar con él o algo?
+
+
+CB:mis ojos solo están fijós en ti, Conejita.
+
+
+Nico se quedó procesando nuevamente unos segundos totalmente quieto y observandolos.
+
+
+Nico:oh! Si, me voy buenas noches o tardes, que les vaya bien, Poka!.
+
+
+Juno se vuelve a sentar en su silla.
+
+
+CB:Así que?
+
+
+Juno:ni una palabra, quedó claro..
+
+
+CB:tú mandas, Estrellita.
+
+
+Juno decisión ignoró esa última parte, este día fue raro y mañana puede ser más raro aún.
+
+
+
+
+===
+
+
+
+:: CHOICE_Epilogo_1_Detective_2 {"position":"450,1425","size":"100,100"}
+title: CHOICE_Epilogo_1_Detective_2
+tags: Loop
+colorID: 8
+position: 972,420
+—
+//TODO:
+Juno vuelve a casa, empapada antes de ellgar denuevo a su apartamento, Cheshire aparece delante de la puerta, estando en un estado de desepcion, negando con su cabeza.
+Cheshire confronta a Juno y ella no contesta, empezando a llorar, Arruino todo y ahora no sabe ue hacer, perjudico a su familia como una idiota.
+Cheshire la consuela y Juno lo mira, diciendole ue por mas ue le duela en el corazon ella debera trabajar como detective privada a sueldo nuevamente, eso implicaria trabajos oscuros y peligroso, en cuanto a Chehsire tiene ue buscar trabajo, y Gotic debera cuidar a sus hermanos..., no hara lo ue se para mejorar su situacion, tienen un ahorro pero no duraran para siempre.
+La ironia se da cuando le llega un testamento a ella de ue ella recibio parte de la fortuna a su nombre, de parte de CB, con una carta agregada, Una ue confieza su amor y esta fechada hace dieciseis años.
+en el pais de las maravillas.
+Juno recibe una llamada inesperada, un tal felix con un caso un poco raro, nesecita su ayuda urgente y le pagara muy bien por ello tal vez, incluso la recomienda a sus conocidos.
+Le advierte ue es un caso extraño y ue otros investigadores ya renunciaron por... lo peculiar de caso.
+
+
+
+===
+
+
+
+:: CHOICE_Epilogo_1_HEROE {"position":"1225,1825","size":"100,100"}
+title: CHOICE_Epilogo_1_HEROE
+tags: White_Rabbit
+colorID: 0
+position: 956,-302
+---
+//TODO:
+Juno visita a CB a prision solo para decirle ue su "relacion" se termino y ue jamas vuelva a meterse en su vida, oh la proxima no sera tan amable con el, y ue deberia cambiar, aunue no crea en ello, el puede hacer mas bien ue mal, tendria mas rivales dignos.
+Apela a su ego pero CB solo le dice ue sus ojos son hermosos y ue saldra pronto y ella lo sabe.
+Juno dice ue si, pero ue solo lo tratara como todos los demas, como un extraño.
+
+===
+
+
+:: CHOICE_Estrangularlo_Dark {"position":"475,1000","size":"100,100"}
+title: CHOICE_Estrangularlo_Dark
+tags: Loop
+colorID: 8
+position: 972,420
+---
+//CHOICE_Estrangularlo_Dark
+
+#acto 2
+#tension
+
+
+<<CharacterColor Juno>>
+Juno:bien…
+
+
+Juno se acerca al indefenso conejo sentado y agonizando de dolor.
+
+
+Hasta que termina frente a frente, viéndolo directo a los ojos.
+
+
+Centrándose sobre sus rodillas mirándolo directamente.
+
+
+Juno:¿Aún puedes confesar?, si lo haces te garantizo que irás al hospital.
+
+
+El conejo le escupió un gargajo a Juno en la cara
+
+
+Juno asqueada se limpia la cara con su saco nuevo, y le regresa la mirada a CB.
+
+
+Levanta las cejas mira hacia la pared aledaña
+
+
+Se quedó así lo que parecía una eternidad, de repente vuelve a mirarlo y se arroja hacia él con sus manos sujetando el cuello del conejo. Se lo empieza a retorcer.
+Sus manos enormes comparadas con el cuello del conejito y su gran fuerza, hacen ver qué esto ya no es un interrogatorio es venganza.
+
+
+Juno:confiesas o te mataré pequeño psicópata.
+
+
+Juno sigue aficionado a CB
+
+
+Este solo sonríe mirando con su cabeza a lo alto.
+
+
+Lo está disfrutando de cierta manera.
+
+
+Juno aumenta la fuerza de su agarre,
+
+
+El conejo aún sonríe aunque se nota que ya no puede respirar.
+
+
+
+
+Juno de repente aprieta el cuello de cb con todas sus fuerzas, y una serie de crujidos se escuchan..
+
+
+Juno:oh..no
+
+
+Juno:no…no ..no..
+
+
+La cabeza del conejo se inclina de una forma antinatural, Juno le rompió todas las vértebras.
+
+
+Juno:no..no..no maldito hijo de la gran… solo tenías que confesar…mierda… que hago ahora…
+
+
+Juno:... Cómo rescató a la niña ahora…
+
+
+Juno se frota el cabello… y tiene una corazonada..
+
+
+Juno:el reloj
+
+
+Juno rebusca en el bolsillo del reciente  cadáver y encuentra el destrozado reloj, agrietado, sin manecillas aunque con sus grabados conservados.
+
+
+Juno tiene la corazonada que estoy está vinculado a la Alicia de alguna forma.
+
+
+Juno arroja el reloj contra la pared destrozándolo.
+
+
+Juno:no… no hay nada…
+
+
+Los pedazos de el reloj estaban dispersos pero no había nada, sólo engranajes oxidados y mecanismos rotos por el golpe
+
+
+Solo era la mente de Juno quien estaba intentando protegerla, darle esperanza, cualquiera que este sea.
+
+
+Juno empieza a llorar con una mano en su boca..
+
+
+Mató a CB pero condenó a una niña inocente…
+
+[[SCENE_FinalDetective_Estrangulacion]]
+
+
+===
+
+
+
+:: CHOICE_Matar_al_conejo_blanco {"position":"0,1000","size":"100,100"}
+title: CHOICE_Matar_al_conejo_blanco
+tags: Loop
+colorID: 8
+position: 869,161
+---
+//TODO:
+Juno Piensa lo ue debe hacer, esta pensando lo ue debe hacer dieñando un plan, para ue confesara, negociando con ella mientras se ve observa y se vurla, Juno procede a dispararle en la pierna, Algo ue CB no se esperaba, el simplemente se ueda viendolo, el Conejo adolorido se trata de frenar su sangrado.
+Juno le acaricia su cabeza, y le dice ue si uiere al menos espiar sus pecados, debe decirle lo ue le uiere saber, donde esta Alicia y ue ella lamara a los servicios medicos, si no, ella esta dispuesta a continuar este camino hasta ue muera, el redimirse al final oh morir.
+Despues de hacer todo esto, ella le da lo ue siempre soño una muestra de su afecto para manipualrlo algo repugnante pero ue consigue su confesion, el Conejo muere.
+pero no consigue donde esta Alicia.
+
+
+[[SCENE_FinalDetective_Estrangulacion]]
+
+===
+
+
+:: CHOICE_Persuadir {"position":"650,1000","size":"100,100"}
+title: CHOICE_Persuadir
+tags: Loop
+colorID: 8
+position: 869,161
+---
+//CHOICE_Persuadir_Detective
+#Juno persuade al conejo para que acepte y le diga dónde está Alicia.
+
+
+
+
+<<CharacterColor Narrator>>
+Juno se acerca a CB lentamente, tomando una silla en su camino.
+
+
+Gira está y observa a CB, actitud sería y movimientos son solapados por una sutil sonrisa.
+Se sienta usando el respaldo para apoyar sus brazos y sus piernas abiertas contra el respaldo.
+Todo desde lampo
+No puede negar que alguna vez soñó con darle una paliza.
+Y qué paliza acaba de darle.
+
+
+Juno:ya que estás calmado, vamos a platicar, de conejo a conejo.
+
+
+Juno:sin bromas, sin juegos de palabras, CON PALABRAS claras.
+
+
+El conejo solo se quedó mirando con una cara de odio visceral.
+
+
+Juno:me dirás dónde está la niña?
+
+
+CB solo mira a Juno con la misma expresión.
+
+
+Juno:Bien ahora me toca hablar como puedo ver.
+
+
+Juno señala a CB con la palma de su mano.
+
+
+Juno:¿Estás buscando salvar el país? (acompaña sus palabras asintiendo con su cabeza)
+
+
+Juno:Deberdad crees que podras salvarlo?, no me digas, si lo crees, en ese caso te pregunto, si mueres?, que pasara con el pais?.
+
+
+CB entrecierra sus ojos, sin decir una palabra.
+
+
+Juno:Sin su líder, solo un guía, podrían pasar dos cosas, o un baño de sangre, o una derrota desesperanzadora.
+
+
+Juno:esas heridas son tratables, pero solo por un tiempo, yo puedo esperar, pero tu?.
+
+
+CB dirige la mirada hacia abajo con lentitud, sus ojos se mueven en pequeños movimientos rápidos.
+
+
+estaba pensando.
+
+
+Juno solo lo mira con una sonrisa complacida, la primera vez en su vida que logra superarlo.
+
+
+CB suspira, regresando la mirada a Juno.
+
+
+CB:está…enterrada, en el bosque rojo…. junto con los otros, tu sabes de quienes hablo…
+
+
+Juno se levanta con suavidad.
+
+
+Juno:gracias por su cooperación, ahora si me mintió, le puedo asegurar que la recuperación podría durar mucho más de lo esperado, es solo una posibilidad.
+
+
+CB: No es mentira…, vete a la mierda Puta coneja.
+
+
+Juno:eres un mal perdedor, y aún peor ser persona.
+
+
+Juno: espero que te pudras en la cárcel.
+
+[[SCENE_FinalDetective]]
+
+===
+
+
+
+:: CHOICE_Rescate_Heroe {"position":"525,775","size":"100,100"}
+title: CHOICE_Rescate_Heroe
+tags: Loop
+colorID: 0
+position: 524,259
+---
+//CHOICE_Rescate_Heroe
+#elección correcta
+#conflicto 
+#primer plot
+//
+
+Juno niega con la cabeza, 
+Juno:no voy a dejarla, tu lo sabes.
+<<CharacterColor Juno>>
+CB niega con la cabeza
+CB: por qué no puedes comprenderlo.
+CB:acaso no te importan.
+CB:déjala y salvarás a muchos más.
+
+
+Juno se apoya en la mesa, parándose nuevamente caminando al lado de CB de forma lenta.
+
+
+Juno:No puedo, y tampoco confío en ti.
+
+
+CB:???
+
+
+Juno:me has mentido en el pasado, no te puedo creer aunque digas la verdad, lo que se que es verdad es que esa niña está desaparecida y tú la tienes.
+
+
+Juno:si confiesas la ayudarás y tu irás a prisión, si te hace sentir mejor hablaré con unos conocidos, verán tu caso, si es como dices intervendrán.
+
+
+CB:como se que eres tú la que me miente?
+
+
+Juno: no te he mentido cuando te dije que eras mi amigo, tampoco cuando me reía con tus bromas, solo quiero que esto tenga un final lo más feliz que se pueda.
+
+
+CB:¿Recuerdas lo que te respondí?
+
+
+Juno:??? Cuando?
+
+
+CB:el reloj, ¿recuerdas lo que te dije?
+
+
+Juno:murmurabas no logré escuchar más que un si.
+
+
+CB: acércate, quiero decirte algo.
+
+
+Juno aún titubeando lo hace se coloca justo enfrente de sus ojos.
+
+
+CB:lo que dije fue..
+
+
+CB:si es que siento algo por ti..
+
+
+Juno intenta no hacer demostrar una mueca de asco, aunque desde luego.
+
+
+Juno:algo por mi??
+
+
+CB abre sus brazos, es una señal para recibir un abrazo.
+
+
+Juno lo mira y se lo da.
+
+
+Sus brazos envuelven a CB que su tamaño insignificante lo hace parecer un peluche en lugar de un adulto.
+
+
+Juno:¿te sientes mejor?
+
+
+CB baja sus manos y con un movimiento rápido toma la pistola de Juno.
+
+
+Juno rápidamente forcejea tomándole la muñeca.
+
+
+(Quicktime event)
+CB:¡siento algo por ti! ¡Un profundo y visceral odio!.
+
+
+Juno:suelta la pistola.
+
+
+(El jugador debe tapear a recio el botón de fuerza si se pasa de fuerza Le arrancara el brazo a CB si falla este le dispara muriendo)
+(El objetivo es desarmar a CB sin matarlo.)
+
+
+//Se ejecutarán barks
+
+
+If successful
+El arma cae al suelo pero el conejo no para de pelear, me arañarme, me golpea o muerde, en estos momentos parece un conejo real, uno salvaje sin su elegancia.
+
+
+Yo solo lo sostengo en el piso, aun así, está completamente descontrolado.
+
+
+Jamás lo ví así, su expresión, su ira.
+
+
+Se pueden notar los ojos rojos del conejo con su determinación.
+
+
+Sin previo aviso una patada directo en mi ojo me derriba, me obliga a retroceder sobre mi espalda
+
+
+El conejo se lanza sobre mi..
+
+
+¡Quiere estrangularme!.
+
+
+Juno:suel..ta…me..
+
+
+El conejo sigue apretando mi cuello solo  gruñe como un animal, 
+
+
+El aturdimiento se desvaneció, y logré levantar mis brazos de nuevo, lo que hice a continuación fue… demasiado
+
+
+Tome al conejo como quien toma aún muñeca desde el torso, me levanté y armandoi brazo como cuando jugaba baseball en la secundaria lo arroje contra la pared aledaña.
+
+
+El sonido de huesos crujiendo fue ensordecedor, con mis años de experiencia puedes identificar qué huesos se rompieron con solo escucharlos.
+
+
+Yo acababa de escuchar una orquesta, le rompí todos los huesos o al menos los que no lo mataran.
+
+
+Sus luchas cesaron,se quedó sentado allí.
+
+
+Yo estaba jadeando,el instinto me salvó, pero casi matando al conejo, dios.
+
+
+Lo ví ahí estaba indefenso, estaba ahí a mi merced. 
+
+
+El causante de mis más horribles traumas, hay servido a te mi
+
+
+->estrangularlo hasta que confiese
+[[CHOICE_Estrangularlo_Dark]]
+->persuadirlo
+[[CHOICE_Persuadir]]
+
+
+
+
+
+
+
+
+If failed
+Forcejeó con él, se resistía a pesar de aplicar muchas fuerzas, quería que se mantuviera quieto quería calmarlo, y me olvide..
+
+
+De que tenía otra mano libre.
+
+
+Sentí un puntazo en mi costado, la primera fue lenta me apuñaló con su ira, luego empezó a agarrar velocidad, logre hacer que soltara el arma y me di una gran codazo, dejándolo en el suelo con sus dientes en el suelo.
+
+
+Logré contra unas cinco puñaladas ..
+
+
+Tome mi costado para poder sentirlo..el destornillador, el conejo usó el mismo destornillador para reparar el reloj que le di, para apuñalarme…
+
+
+No puede evitar soltar una risa ahogada.
+
+
+La cosa más irónica que veré en mi carrera.
+
+
+CB estaba inconsciente, me levanté con dificultad y me dirigí hacia la puerta.
+
+
+Me desplome, antes de llegar, la herida era peor de lo que parecía.
+
+
+Me había apuñalado en el riñón,él realmente quería que muriera.
+
+
+Mi vista empieza a nublarse, los sonidos reverberan, puedo ir unos pasos, unos pasos a mi lado.
+
+
+¿Será alguno de mis colegas?.
+
+
+Cheshire?.
+
+
+Papa…
+
+
+Una voz difícil de distinguir me hablaba.
+
+
+
+
+solo puedo entender distinguir dos palabras, Junie y perdonarme.
+
+
+Un destello seguido de un vacío negro me envuelven. 
+
+
+Ya no sentí nada más.
+
+
+
+
+If Overkill
+Me excedí, tomé a CB del cuello con mi una mano, lo empecé a estrangular aún así él no se dió por vencido, gruñía arañaba y me mordía.
+Estaba fuera de sí.
+Sus ataques me hacían difícil inmovilizarlo mientras él trataba de apuntarme con mi propia pistola.
+
+
+Tome una decisión drástica.
+Lo levanté como un muñeco de trapo,y lo estrelle en contra el suelo, ya un así con dolor el seguía, estaba peleando por su vida.
+Y yo también.
+No lo pensé demasiado… o tal vez quería hacerlo.
+
+
+Lo que recuerdo es que le pide su antebrazo y con mi misanos sujetando la suya, jale.
+
+
+Sus gruñidos se volvieron chillidos de dolor.
+
+
+Sin darme cuenta, sentí que algo sucedió.
+Pensé que lo que se soltó era el arma, cuando me reposición y volví a mirarlo él se sujetaba el brazo recostado en su otro lado, se movía pero no emitía ruido.
+
+
+Que? Pensé yo,
+
+
+Hasta que recordé que tenía algo en misanos.
+
+
+Ese algo… era su brazo… le arranque el brazo…
+
+
+Mi corazón latía la escena si distorciono… que hice.
+
+
+Un grito ensordecedor se escuchó por toda la sala, reverberando, un charco de sangre se expandía por el suelo.
+
+
+El conejo blanco gritaba de dolor y yo me quedé hay, un escalofrío recorrió mi espalda.
+
+
+Acababa de matarlo… lo sabía, cómo lo voy a resolver.
+
+
+Los gritos del conejo empezaban a menguar, sus gritos se convirtieron en sollozos.
+
+
+Estaba llorando…
+
+
+Tome el valor para acercarme, una parte de mi lo disfrutaba, otra quería saber que dice, y yo estaba asqueada queriendo esconderme.
+
+
+El conejo sollozaba, decía te quiero hermanita, seguido con un perdóname una y otra vez..
+
+
+Juno:hermana.., no sabía que tenía una hermana..?.
+
+
+Note que alucinaba, ya no le quedaba mucho.
+
+
+Solo decía incoherencias… hasta que después de unos espasmos, dejó de respirar.
+
+
+Su mirada no era la que me imaginé que tendría al morir, era una de lamento, de dolor.
+
+
+Me senté en la habitación con su cuerpo tan cerca, quería realmente retirarme y no volver jamás a este lugar…
+
+
+La niña va a morir.. y yo la termine matando…
+
+
+===
+
+
+
+:: CHOICE_Sin_Sucessora {"position":"425,575","size":"100,100"}
+title: CHOICE_Sin_Sucessora
+tags: White_Rabbit
+colorID: 0
+position: 524,259
+---
+//CHOICE_Sin_Sucessora
+
+<<if $Arquetipo == "Detective">> 
+Juno:estábamos con el caso de Alicia Alicia.
+Juno:se nota que jamás dejarte ir al país de las maravillas.
+Juno: y puedo notar que Alicia tiene algo que ver.
+Juno: ¿Qué quieres de ella?.
+CB:Tu deberías saberlo, hablaste con la reina.
+CB:Te percataste de esa gran intuición tuya.
+<<CharacterColor Juno>>
+Juno:Lo que quieres es que el País sufra.
+
+
+<<CharacterColor Narrator>>
+la sonrisa del conejo se desvanece.
+
+
+CB:Alguien no es tan loca como parece.
+
+
+CB:Juno recuerdas aquel inconveniente!, que me generaste fue muy descortés de tu parte.
+
+
+Juno juega con su anillo de bodas, sabe por dónde va esta conversación.
+
+
+Juno:descortés?,por eso usaste a Alicia Deepts, para ello, la moldeaste a tu conveniencia?.
+Para que?, por qué?.
+
+
+CB:Era mi Plan A.
+
+
+Juno:la enloqueciste, la volviste una salvaje, la dejaste pudrirse completamente sola en el bosque de la memoria!. no recordaba ni que era humana, hijo de p-
+Juno respira hondo, y trata de calmarse.
+
+
+CB: también acelera las cosas para su coronación, aunque tu la rescataste, te felicito, te aplaudo.
+
+
+Juno:su familia la tuvo que recluir en una institución mental de provida, tenia daños psicologicos irrebersibles por tu maldito capricho.
+
+
+CB:crees que es un capricho?, crees que solo hago esto por gusto? je-, Si piensas eso es un poco, simple.
+No estás viendo todo el panorama Junie.
+
+
+
+
+<<CharacterColor Juno>>
+Juno:Ahora quiero que me digas donde está?
+<<CharacterColor CB>>
+CB:Dónde está?..., tu donde crees que estaría?, te dare una pista, no está en el país, se que lo pensaste eso en algún momento.
+CB:Tick-Tock, el tiempo corre y ahora solo queda una tercera parte del oxígeno, pobrecita de seguro, estará llamando por su mama.
+<<CharacterColor Narrator>>
+La sangre de Juno hierve, apretando los puños sus ojos brillan de el odio que emanan.
+
+
+Juno:no concibo a alguien como tu..
+Juno:Todos tienen un por que, cual es tu porque?. yo!!?, el país?!¡Cuál carajos es tu razón!.
+
+
+Juno:¡Qué quieres!.
+
+
+
+
+CB:Juno es una lastima que no puedas ver mas-
+
+
+CB suspira toma con firmes el reloj entre sus manos enderezandose en su silla, su mirada cambió la molestia real.
+
+
+CB:Se que quieres que te diga, quieres que te diga que eres tu, que mi motivación tiene que ver contigo, que estoy aquí para destruirte.
+CB:No, esa no es mi razón.(Acompaña sus palabras negando con su cabeza)
+CB:se que lo necesitas, me odias por lo que viviste en el país.
+CB:cosas que te acompañan hasta el día de hoy, cosas que hiciste.
+CB:Te diré que.
+CB:No, no eres mi razón, ni el gato, ni ninguno, mi razón va más allá.
+CB: Te preguntare esto, ¿Realmente quieres rescatar a esa niña sabiendo, que un sinfín más sufrirán?.
+
+
+Juno mira a CB incrédula, y confusa, jamás lo vió actuar ni hablar así.
+
+
+CB:asumiré que si, ahora dime, sabes que las niñas no son las que más sufren?, si no los habitantes.
+CB:Desde que era niño he visto cosas horribles, todo de manos o a consecuencia de una reina.
+CB:déspota y cruel.
+CB:una niña como sabes.
+CB:Sólo fuiste por una semana, y hoy más de una década después sigues traumada.
+CB:Con pesadillas se nota en tus ojeras.
+CB:Ahora piensa, qué clase de cosas han visto los que viven allí para estar tan locos.
+Juno mira a otro lado y se cubre la boca con su mano.
+CB:me lo imagine, no lo pensaste, lo sabes y ni le prestaste atención.
+CB:Por eso, eres una tonta, porque niegas la realidad, siempre lo has hecho, porque te niegas a ti.
+CB:Aún te comportas como una niña, y eso se nota.
+CB:tu y Cheshire están obsesionados conmigo, apenas hablo con ustedes ya quieren matarme, y lo más gracioso es que ni siquiera me importan…
+CB suspiró de frustración.
+CB:no lo entenderás, nadie más lo hara.
+CB:Pero mira, lo que quiero es que este ciclo de sangre termine, quiero ese trono para que nadie más muera por una maldita mocosa.
+CB:El plan A, seguía las reglas del país,y tu lo arruinaste, pensé que lo entendías, me dijiste que querías cambiar las cosas,que te preocupaba por ellos y me traicionaste.
+CB:pensé que me ayudarías, tu heroísmo solamente ha causado una masacre, miles han muerto, por ello.
+
+
+CB:yo soy la única persona que daría algo por ese lugar, tú lo quemarías si pudieras,El gato de Cheshire se fue a la primera oportunidad sin mirar atrás.
+CB:Son unos hipócritas, se mienten diciendo que son héroes, y yo se que tu Juno, eres como yo, no eres peor, al menos yo sí decido a quien matar y tengo una causa por la cual hacerlo.
+CB:Si salvas a la niña solo prolongará el sufrimiento de inocentes.
+CB:Si la dejas morir yo tomaré el control del país, no me interesa conquistar nada más, solo para esa carnicería.
+CB: es mucho?.(Se denota desdén en su)
+CB: quieres que sea más honesto?.
+CB: estoy dispuesto a hacer lo que sea, porque creo en ello.
+CB: y me arta, de que seas tan idiota, de pensar de que el mundo es buenos contra malos.
+CB:Eres literal una maldita máquina de matar y lo desperdicias en sueños infantiles.
+Juno lo mira negando con la cabeza no puede decir nada.
+CB:Ahora quiero que elijas Juno.
+CB:Dejarás morir a la niña así me ayudas a terminar con un baño de sangre.
+CB:La salvas y me arrestas, solo te diré  que saldré en menos de un mes.
+CB:O puedes cumplir con ese deseo oscuro que tienes y me matas.
+CB:algo que se que deseas con tu alma.
+CB:reconozco a un monstruo cuando lo veo, y este monstruo se casó con su par.
+Cheshire no es trigo limpio, todos en el país hemos hecho cosas atroces para sobrevivir.
+CB:Todos y cada uno.
+CB:cada uno callamos.
+CB:por qué razón crees que estamos tan locos Juno?.
+
+Juno está jadeando sin aire, negando con su cabeza, que dice que qué puede hacer.
+
+
+CB:¿Qué eliges?
+
+
+->[Héroe]Decidir Rescatar a alicia
+[[CHOICE_Rescate_Heroe]]
+
+->[Detective]Dejarla morir.
+[[CHOICE_Dejarla_Morir]]
+
+->[Oscura]Matar al conejo blanco
+[[CHOICE_Matar_al_conejo_blanco]]
+
+===
+
+
+
+:: CHOICE_decirle_donde_está {"position":"900,950","size":"100,100"}
+title: CHOICE_decirle_donde_está
+tags: White_Rabbit
+colorID: 0
+position: 956,-302
+---
+//TODO:
+El conejo finge decir la verdad, tanto a Juno como al Jugador, mientiendoles a ambos?.
+si, el narrador es CB y actua como un narrador poco confiable.
+Jugando con el lugar, y Juno confrontandolo hasta ue descubrir la ubicacion del Alicia.
+Esto lleva a ue cb pierda su poder y lo arresten, ya ue en su mentira por descuido dijo algo de verdad y eso provoco ue Juno lo descubriece.
+
+
+
+[[SCENE_Respuesta_De_Juno]]
+===
+
+
+:: INTRO_Introduccion {"position":"650,225","size":"100,100"}
+title: INTRO_Introduccion
+tags: Loop Save
+colorID: 0
+position: 1403,411
+—
+//INTRO_Introduccion
+<<CharacterColor Narrator>>
+Desde los albores de la existencia, los seres fantásticos fueron solo leyendas.  
+Luego, pasaron a ser cuentos; ahora son tan reales como tú y yo.  
+<<CharacterColor Juno>>
+Alicia. Siete años. Cabello dorado como el trigo en verano. Dos días desaparecida,
+y en su expediente solo había una nota firmada con unas iniciales
+CB. Mis manos temblaron al verlas.
+CB; Conejo Blanco. Él. El mismo que décadas atrás convirtió a una niña en un juguete roto.
+La última vez que lo enfrenté, me llamó "Juno, la liebrecita cobarde". Tal vez tenía razón. Porque aquel día, cuando lo encarceló,
+juré que la justicia triunfaria.
+Pero ahora... Alicia pagó mi error.
+—Soy Juno. Detective. Una de las mejores de Louisiana. Y esta noche, voy a necesitar más café que nunca — masculle, clavando la foto de Alicia en el tablón de evidencias.
+Su rostro de siete años, pecosa y trenzas rubias,
+me devolvió la sonrisa de mi hija. No volvería a dormir hasta encontrarla.
+
+
+El caso apestaba a él. A su firma.
+La nota anónima en mi escritorio lo confirmaba.
+
+
+«7 PM. Lonja de algodón. Ven sola, Liebrecita. —CB»
+
+
+Conejo Blanco. El acrónimo que me heló la sangre.
+Apreté los puños hasta que las garras —sí, maldita herencia fantástica— me perforaron las palmas.
+Dieciséis años.
+Dieciséis años creyendo que estaba muerto, enterrado en la más pútrida jaula del País de las Maravillas, de las pesadillas mejor dicho. Pero los monstruos nunca mueren… solo aprenden.
+
+
+Veo a través de la ventana, con mi café en mano, negociando conmigo para no entrar y darle la paliza de su vida.
+En el espejo del interrogatorio, el tipo sonreía.
+Traje impecable, ojos rojos como vino tinto. Demasiado humano para quienes no supieran ver las costuras en su disfraz.
+
+
+Me digno a entrar en esa sala solo para ser recibida de una forma, para nada normal.
+
+
+Mi primer caso como detective había empezado igual. Una niña desaparecida. Un conejo blanco que apareció de la nada.
+Un viaje a un mundo donde los gatos sonríen con colmillos y las rosas se pintan con sangre.
+Y yo… la Liebre de Junio que juró proteger a los inocentes.
+Fallé. Como estoy fallando ahora.
+
+
+
+
+//Héroe Route
+// [HEROICO] "Justicia ante todo, incluso si me cuesta la vida.( Ir a la sala de interrogatorios.),"
+//<<jump SCENE_interrogatorio_Conejo_blanco>>
+[[SCENE_interrogatorio_Conejo_blanco_Heroe]]
+
+
+// [Detective] "Haré lo necesario, dentro de la ley. Ir a la sala de interrogatorios.),"
+<<jump SCENE_interrogatorio_Conejo_blanco>>
+[[SCENE_interrogatorio_Conejo_blanco_Detective]]
+
+//Dark Route
+// [OSCURO] "Los monstruos solo entienden un lenguaje. Ir a la sala de interrogatorios.).”
+//<<jump SCENE_interrogatorio_Conejo_blanco>>
+//[SCENE_interrogatorio_Conejo_blanco_Dark]
+
+//Dejar el caso
+// <<jump VolverACasa>>
+
+
+
+
+===
+
+
+
+:: SCENE_FinalDetective {"position":"650,1200","size":"100,100"}
+title: SCENE_FinalDetective
+tags: Loop
+colorID: 8
+position: 869,161
+---
+
+
+//CHOICE_FinalDetective
+#Juno persuade al conejo para que acepte y le diga dónde está Alicia.
+#Juno minimizado la situación burlándose del conejo
+#Juno pide asistencia médica y  el conejo solo se despide de ella de forma críptica.
+#Después de Juno se tiene que quedar a escribir los informes.
+#Vuelve a casa con el epílogo, y Juno visita a CB en la prisión sólo para cerrar el ciclo con un click Hunger.
+
+
+
+
+#Juno minimizado la situación burlándose del conejo
+
+
+Juno cuidadosamente se levanta de su silla casi tropezando cuando coloca un pie de nuevo en el suelo.
+
+
+La alta coneja detective realiza un estiramiento con una leve rotación de su espalda.
+Juno:Dios que me dolía la espalda.
+Juno: realmente tengo que ir al quiropráctico, me siento vieja…
+Juno: ¿crees que soy vieja Blanco?
+El adolorido Conejo blanco solo la puede mirar con cinismo.
+
+
+Juno:Na, aun soy joven, gracias por cooperar, al final salvaste a una niña.
+Juno camina hacia la puerta y da unos tres toques.
+Juno:Necesito unos paramédicos, necesito que me traigan unos paramédicos.
+Juno:el sospechoso resultó herido.
+<<CharacterColor Narrator>>
+Juno se queda mirando a el conejo, sus rostros narraban la misma pregunta.
+
+
+¿Por qué las cosas terminaron así?.
+
+
+No había felicidad ni satisfacción, solo melancolía.
+
+
+La puerta se abre de golpe, y por ella unos paramédicos avanzan a toda velocidad.
+Ambos con trajes azules y sus caras estaban cubiertas con un velo.
+
+
+Juno mantiene su mirada al Conejo blanco, queriendo evitar mostrar algún tipo de debilidad.
+
+
+Le agregaron un soporte en su cuello, y lograron pasarlo a una camilla portátil.
+
+
+Todo con el máximo cuidado que se le pudiera otorgar en una habitación tan pequeña.
+
+
+Juno se aparta hasta la esquina de la habitación, trasladando al individuo hasta que emite un gemido de dolor.
+
+
+CB: Ju..juno..
+
+
+Juno:...
+
+
+CB:Eres hermosa sabes?...
+
+
+Juno:.... tú podrías serlo… solo…, esta conversación no tiene sentido.
+
+
+Juno:Llévenselo y notifíquese cuando esté mejor.
+
+
+Los médicos se miraron entre sí después vieron a la detective.
+
+
+Juno:Fue una orden.
+
+
+Acatando con algo de pavor se fueron rápidamente, Juno procedió a cerrar la puerta a la salida de CB.
+
+
+Soltó con delicadeza la perilla de la puerta retrocediendo unos pocos pasos de esta,
+
+
+Transcurre el tiempo lo que parecía una eternidad, hasta que..
+
+
+Juno se derrumba sobre sus rodillas, inclinándose, jadeando por aire..
+
+
+La pesadilla terminó…
+
+
+Ella exhala repetidamente, negando con su cabeza.
+
+
+Juno:....casi..lo mato…, casi lo mato…
+
+
+Juno:Dios…, gracias.. gracias por darme fuerzas.
+
+
+Juno se levanta con dificultad, se impulsa con sus brazos y se sujeta de la mesa para poder ponerse de pie, aunque algo aturdida aún logra su cometido.
+
+
+Juno:Realmente necesito vacaciones…
+
+
+La puerta se abre y una figura alta y autoritaria la llama
+
+
+???: Detective Star a mi despacho ahora.
+
+
+Juno traga saliva sabe que esto va a ser malo.
+
+
+Juno recorrió el pasillo hacia la oficina de su superior, cada paso resonaba con el eco de las palabras de CB: ‘Eres hermosa’, una y otra vez hasta que una voz interrumpe su disociación.
+
+
+???:¿Puede decirme que paso hoy, Detective?
+
+
+Juno:El interrogatorio corría con normalidad Señor, de un momento a otro el sospechoso se tornó violento, fuera de sí, intente movilizar,.. por mi descuido hice uso excesivo de mis habilidades naturales, y el sospechoso fue herido, eso en resumen señor.
+
+
+???:Lo vi todo por la ventanilla, Detective. Me refiero a la última parte, esa que empezó a platicar con el sospechoso como si fuera una fiesta de té?
+
+
+Juno tuvo que contener la sonrisa, esa analogía era muy precisa.
+
+
+Juno trago saliva y con el tono más firme que podía sostener continuo.
+
+
+Juno:una niña pequeña estaba en peligro señor, se que es completamente poco profesional pero no podía permitirme que el sospechoso se saliera con la suya.
+
+
+El chico suspira levantando sus cejas con incredulidad
+
+
+???Detective Star, debo advertirle que por protocolo debo darle una sanción de varias semanas sin paga por eso.
+
+
+La actitud de Juno se resquebraja como una mamushka al escuchar esas palabras.
+
+
+Juno:por favor no.. yo tengo familia, no puedo perder mi trabajo.
+
+
+???: Aún no terminé.
+
+
+Juno aún tensa, vuelve a su anterior postura firme pero con sus ojos abiertos y labios retraídos.
+
+
+???:debería, pero por haber logrado rescatar a Alicia Ledell, por sus años de impecable servicio, y por que el sospechoso, esto último de mi opinión personal, es un criminal que un policía común le hubiera dado una paliza hasta matarlo, solo le doy una advertencia verbal.
+No quiero que jamas esto vuelva a pasar en una sala de interrogatorios, la reputación de la policía y el sistema dependen de que todos los miembros respeten esas reglas.
+
+
+Juno se pasa la mano por su cabello, estaba a punto de llorar, pero eso no era adecuado, tenía que mantener las formas.
+
+
+Juno:gracias Señor, Nunca más volverá a pasar.
+
+
+(El jefe asiente, pero el crujido de la silla al levantarse delata su desconfianza. Fuera de la oficina, el sonido de las máquinas de escribir en la estación llenaba el silencio incómodo).
+
+
+???:Se que no, si hubiera sabido la conexión pasada con el sospechoso lo hubiera delegado a alguien más neutral.
+
+
+Juno:gracias Se-
+
+
+Juno se pausa en ese momento, detecto algo.
+
+
+Juno:no sabía que el sospechoso tenía un vínculo conmigo?, le envío un pañuelo con sus iniciales y se dirigió a mi.
+
+
+???:Aunque le cueste creerlo, no llegue a mitad del procedimiento.
+
+
+Juno:sabe qu-
+
+
+Juno:disculpe, le agradezco su tiempo.
+
+
+Su jefe mira con intriga a Juno.
+
+
+???:Revisare el asunto si te hace sentir mejor, dudo que sea algo más allá que un despiste. 
+
+
+???:Ahora requiero que haga un informe de este caso. Completo, y sin omitir detalles.
+
+
+Juno:Entendido señor.
+
+
+Juno abre la puerta de su oficina de detective en un pequeño apartamento aledaño a la estación.
+
+
+trabajaba mejor sola y eso se notaba, algo que aprendió de su padre.
+
+
+Los sonidos de las duras teclas de una computadora acompañado con el zumbido y de los ventiladores de la vieja computadora de Juno la cual suplicaba que la salven de su tormento.
+
+
+Juno escribía su largo informe, había empezado hace dos horas, y aun le quedaban las partes mas confusas.
+
+
+Se reclina sobre el respaldo de la silla, frotando su ojos repitiendo “Odio la burocracia”, se quedó viendo su informe, pensando en qué decir, cómo explicar el resto de los sucesos.
+buscando algo a lo que aferrarse noto unas fotos a su lado.
+En ella estaba blanco, el imbecil que causó todo, y la otra la niña a la que salvó, Alicia sosteniendo un peluche de conejo rosa… una foto tan inquietantemente familiar, como enternecedora. 
+
+
+Juno solo sonríe al verla, una vida que pudo salvar, alguien a quien no le falló.
+
+
+De inmediato se recompone retomando su escritura, recordando todo lo que implicaba.   
+
+
+Por qué lo hace.
+
+
+Antes de que cualquiera de sus dedos tocara el teclado, su teléfono suena de forma estridente, una llamada, sera de Cheshire?.
+Juno se olvido de llamar a Cheshire para decirle que todo esta bien.
+“Me va a matar… seguro que me va a matar” piensa la detective
+
+
+El teléfono aun sigue sonando sacándola de su ensoñación.
+
+
+Juno:OH!!!
+
+
+Juno toma el teléfono con prisa, casi se le resbala de las manos, como en una caricatura, logrando contestar.
+
+
+Juno:De-Detective Juno en qué puedo servirle?.
+
+
+Unos murmullos se escuchan del otro lado.
+
+
+Juno:Está bien!!, digo.. Me alegra que me notifican.
+
+
+
+
+Otros murmullos se escuchan del otro lado.
+Juno:Si!, iré a verlo, muchas gracias.
+
+
+Juno corta la llamada, su mano se coloca tratando de calmar su errático corazón.
+
+
+Juno:No se por que me alivia que estés bien, pero al menos me alegra que no estés muerto.
+
+[[CHOICE_Epilogo_1_Detective]]
+
+===
+
+
+
+:: SCENE_FinalDetective_Estrangulacion {"position":"450,1200","size":"100,100"}
+title: SCENE_Final_Conejo_Muerto
+tags: Loop
+colorID: 8
+position: 869,161
+---
+//TODO:
+La escena termina con CB muerto.
+Y Juno siendo suspendida hasta nuevo aviso sin paga.
+Se encuentra la Niña muerta y es enterrada, Juno no puede decir nada solo observar a la distnacia bajo un arbol.
+Para luego acercarse al a tumba una vez terminado el funeral.
+Para leer el epitfio.
+"Alice Rochet, su risa sera recordada en los corazones de todos por siempre. "
+Juno solo uedara observando la tumba, sin decir una sola palabra.
+
+
+[[CHOICE_Epilogo_1_Detective_2]]
+===
+
+
+:: SCENE_FinalHeroe {"position":"1225,1550","size":"100,100"}
+title: SCENE_FinalHeroe
+tags: White_Rabbit
+colorID: 0
+position: 956,-302
+---
+//TODO:
+ ella gano y ue en parte le complace ue sea incluso mas intersante ue antes
+Juno.
+Juno arresta a CB 
+Juno se despide de CB antes de ue se lo lleven en una narracion con subtexto, de ue a pesar de todo, volverlo a ver fue liberador, y ue ella lo visitaria, para asgurarse de ue se uede hay
+
+En la historia Juno tiene una atraccion por CB es reciproca
+
+
+
+[[CHOICE_Epilogo_1_HEROE]]
+===
+
+
+:: SCENE_Respuesta_De_Juno {"position":"975,1225","size":"100,100"}
+title: SCENE_Respuesta_De_Juno
+tags: White_Rabbit
+colorID: 0
+position: 956,-302
+---
+//TODO:
+
+Juno lo confronta por ultima vez tratando de ue confieze para poder al menos darle una segunda oportunidad, mostrandole lo ue hace y a las persoas ue hiere, algo ue ella siempre tiene presente, y por la razon ue esta dispuesta a ganar y ya no hay nada ue arreglar, por favor se rindiera, se lo pedia desde el fondo de su corazon, confesara si no ue lo hiciera por ella.
+
+
+
+CB recupera la compostura y se niega a decirle, ella le sonrie, y le dice ue el aun tiene vondad, y ue el gustaria ue fuera honesto, con ella ue le muestre ue puede ser una buena persona, diciendole donde esta alicia
+
+Con su negativa, le ofrece dejarlo ir si accede a decirle donde esta alicia,
+
+
+
+
+
+[[SCENE_FinalHeroe]]
+===
+
+
+:: SCENE_interrogatorio_Conejo_blanco_Detective {"position":"550,400","size":"100,100"}
+title: SCENE_interrogatorio_Conejo_blanco
+tags: White_Rabbit
+colorID: 0
+position: 956,-302
+---
+<<if $Arquetipo == "Detective">>  
+<<CharacterColor Narrator>>
+Las luces titilan levemente, desvelando frente a nuestra detective se presenta una figura bajita y elegante. Era el susodicho en persona.
+
+
+<<FadeOutBackGround>>
+<<RandomBlinking>>
+<<FadeOutBackGround>>
+El conejo blanco.
+Sus ojos estaban tan abiertos fingiendo asombro, observa a Juno con su cabeza ladeada.
+una pequeña sonrisa burlona tirando de sus labios.
+Un reloj de bolsillo asomaba en su camisa, un tictac adubile en el silencio, pero sin sus diminutas manecillas.
+
+
+<<CharacterColor CB>>
+CB: (Con una sonrisa burlona y ojos brillantes) Hola, mi pequeña Junie. Tanto tiempo sin vernos. Aun conservas esa moral de cuento infantil que tanto te caracteriza... (hace una pausa dramática) Aunque, por lo que escuché, tu esposo sigue siendo un fracaso, ¿no?
+<<CharacterColor Juno>>
+Juno: (Juno tira extiende un expediente en la mesa) ¿Ya te han dicho que eres peor que una plaga?
+<<CharacterColor CB>>
+CB: Eh, nada que un par de palabras amables y una cara desenfadada no arreglen.
+<<CharacterColor Narrator>>
+Juno levanta una ceja aun con una expresión seria
+<<CharacterColor Juno>>
+Juno: Quiero que me diga: ¿Dónde estaba el Martes a las 12:20 horas?
+Juno:Nada de juegos de palabras, Humor surreal, Paradojas o frases sin sentido.
+Juno: Esto es el mundo real, y necesito respuestas reales.
+Juno:SOLICITÓ palabras claras, y ni siquiera intentes coquetearme o tratar de hacerte pasar por mi ami-
+<<CharacterColor CB>>
+CB:Estás divagando como siempre, Junie. Ya sabes como es el tiempo. No hay tiempo.*jiji* Me gustaría que tratasen ese problemita en cabeza, al menos, así serías un reto un poco más interesante.  
+<<CharacterColor Narrator>>
+Juno arroja una foto sobre la mesa era una foto de la camara algo borrosa pero se puede apreciar a CB en esta.
+<<CharacterColor Juno>>
+Juno: Vayamos al grano. Se que tu coartada es falsa, y que tiene que ver con este caso. Es evidente.
+<<SpriteExtpesion 2>>
+<<CharacterColor Narrator>>
+El conejo sonrió con arrogancia.
+<<CharacterColor CB>>
+CB: ¿Cómo está el gato de Cheshire? *Sigh* Tantos recuerdos, tantos años de amistad. Se que se casó contigo, una elección más que envidiable como cuestionable si me lo preguntas.
+<<CharacterColor Juno>>
+Juno:Eres un monstruo.
+<<CharacterColor Narrator>>
+Juno responde de forma seca.
+<<CharacterColor Narrator>>
+CB Suelta una leve risita.
+<<CharacterColor CB>>
+CB:Son palabras un poco duras... Creí que quería ser libre.
+<<CharacterColor Juno>>
+Juno:¿por qué lo hiciste?
+Juno:Sé que eres alguien que destruye a todos a su alrededor. amistades y familias. Pero una niña inocente, ¿qué te hizo ella?
+<<CharacterColor CB>>
+CB:Te molesto, te irrito? pues curiosamente no tengo nada que ver con esto, me inculparon.
+CB:Juno Juno… Junie. Él era especial. puedes averiguarlo sin problemas. Eres mi amiga.
+Juno:DISCULPA??!!!
+CB:Fue muy crudo, preciosa?"
+Juno:me usaste como tu maldito juguete, y ahora una niña está en peligro por ello, y tu te atreves a llamarme amiga!!?.
+<<CharacterColor Juno>>
+CB:Si fue un poco demasiado,Qué asco el saber que éramos- jeje da igual. Puedes preguntarme lo que quieras, Junie soy todo oidos, te puedo ofrecer te?.
+<<CharacterColor Juno>>
+Juno:¿Dónde estabas a las 12.20 del martes?
+<<CharacterColor CB>>
+CB:Mmmm, no lo sé? no recuerdo a ninguna niña, ¿Hay una niña? Acabo de enterarme.
+<<CharacterColor Juno>>
+Juno:«Hijo de…»
+Juno:(apuñalando el expediente con sus garras) crees que es un juego? estás jugando conmigo.
+Juno:Te han visto en el lugar de la desaparición de la víctima, y nadie pudo confirmar tu coartada de la reunión empresarial.
+<<CharacterColor Juno>>
+Juno:No te importa?, enserio?. 
+<<CharacterColor CB>>
+CB: Está bien, me avergüenza admitirlo, pero estaba con unas encantadoras mujeres que ofrecen su compañía por un monto
+CB:¿Es un eufemismo? Puede ser, pedí que mintieran, es un poco vergonzoso.
+CB:Pero tengo dinero, y qué más quiere uno que algo de hedonismo desenfrenado?
+<<CharacterColor Narrator>>
+Juno está con una expresión confundida, el conejo está más loco de lo que recordaba hasta que abre un poco sus ojos al darse cuenta de lo que decía.
+<<CharacterColor Juno>>
+Juno:(Se acaricia su cabello por frustración)
+
+
+Juno: mira te tenemos en las grabaciones, estuviste ahí me enviaste una nota sospechosa como mínimo pidiendo que este aqui, asi que eres culpable o cómplice.
+
+
+CB:Solo fue una invitación para ver a mi antigua amiga. *jeje* y en cuanto a las imágenes, podría ser cualquiera, están borrosas, no se distingue nada, si te digo es un duende alguien en internet se lo creería. 
+
+
+(Juno golpea la mesa, abollando el sólido metal)
+<<CharacterColor Juno>>
+Juno: No cambies de tema!!!
+(El conejo ladea su cabeza y mira fijamente a Juno sin inmutarse) 
+<<CharacterColor CB>>
+CB: Jojo, ten cuidado con esa fuerza, podrías matar a alguien de un solo golpe. Si es que no lo has hecho aún?
+<<CharacterColor Juno>>
+Juno:¡Ya deja de cambiar de tema, imbécil! ¡Tú secuestraste a la niña, hijo de puta!
+<<CharacterColor CB>>
+CB: ¡Oye! tranquila No tienes que enojarte. 
+
+
+CB: Una detective no debería perder la calma tan fácilmente. ¿No crees? Es bastante poco profesional si me lo preguntas. 
+
+
+<<CharacterColor Narrator>>
+Juno se vuelve reclinar en su silla juntando sus manos y recomponiendo su imagen de detective, aunque quisiera estrangular al monstruo frente a ella.  
+<<CharacterColor Juno>>
+Juno: Dios… no vas a cooperar tan fácil, verdad?, vas a jugar como en el país? 
+<<CharacterColor CB>>
+CB: Como te dije me acabo de enterar de la desaparición de una niña, no tengo nada que ver con esto.
+
+
+(Un sonido de un engranaje trabados se escucha en la sala)
+CB:maldita porqueria, tendré que sacarlo y ajustarlo.
+(Saca su reloj, este esta roto, facturado con sus manitas, sueltas dentro del reloj y el cristal fracturado)
+Juno se lo queda mirando,
+(EL reloj tiene un acabado de liebre en la parte trasera, no es lujoso, solo un reloj de bolsillo)
+Juno: (con un tono de voz más suave) ¿Qué es eso?
+CB: el regalo de una gran amiga, me lo dio hace mucho tiempo, pero no funciona bien, es un poco molesto.
+Juno:si... (Juno se queda mirando el reloj).
+CB:(Reajusta el reloj poco a poco el sonido similar al de un juguete de cuerda, es lo unico que se escucha)
+
+
+*Flashback*
+(Se escuchar risas)
+Una coneja delgada joven con un atuendo poco formal para una detective, alta delgada, con una camiseta rosa, un chaleco superior pequeño. abotonado, unas botas de cuero curtido y unos pantalones de chándal con una lupa colgando de su cinturón.
+Arrojándose en un sofá de cuero de forma descuidada.
+Juno: (Riendo, con una botella de cerveza en la mano) ¡Por un trabajo bien hecho!. Frente a ella, dos figuras fantásticas compartían el momento. El primero era un conejo blanco, vestido con un traje de mensajero impecable, sombrero de copa con alas y un saco rojo que contrastaba con sus pantalones cortos. En su bolsillo, un reloj de bolsillo brillaba con luz propia. El segundo, un gato sonriente, observaba con ojos intrigados, como si supiera que aquel momento de camaradería no duraría para siempre.
+
+
+CB: bueno si, pero no te emociones tanto, no es como si fuéramos a hacerlo de nuevo(El conejo sujeta en su mano un vaso de whisky ).
+
+
+Chesire: Me recuerda cuando eramos niños Blanco, eres un canalla.(Cheshire lo mira con su sonrisa, su voz suena con un toque de resentimiento.)
+CB:Viniendo de un ladrón… eso es preocupante.
+Cheshire:la reina no se enterara.
+
+
+Juno: Oye Blanco, puedo llamarte Blanco?.
+CB:Si, solo si me permites ponerte un apodo luego.
+Juno:claro.
+Juno:quería decirte que.
+Juno:Mira compre esto en el mercado, me debían un favor para arreglar el asunto de las flores de whisky.
+CB: ¿Espera es un regalo?, ¿para mí?
+Juno: si, es un reloj de bolsillo, es un poco viejo, no muy caro perdona por eso, aunque funciona bien, es un regalo de agradecimiento.
+Juno:si no fuera por ti, no hubiera llegado tan lejos aquí.
+Juno: eres una gran amigo, y una gran persona.
+CB: gracias Juno.
+CB:(extiende sus dedos y toma con cuidado el reloj de las manos de Juno)
+CB:(lo abraza apegándose a su pecho, por unos segundo)
+Cheshire:Cuidado, Detective... algún día él elegirá el poder sobre tus regalos.
+Juno lo ve abrazando su regalo, era muy tierno.
+Juno:parece que lo aprecia mucho.
+CB:se ríe levemente, aun sigo aqui, y te prometo que lo cuidare, gracias Juno.
+CB: En cuanto al apodo, Que tal Junie.
+Juno:me encanta, adelante.
+
+
+*Fin del Flashback*
+
+
+Juno: (Juno se queda mirando el reloj, con una expresión de sorpresa)
+Juno:ese reloj... es el que te di hace años, ¿no?
+CB: si, lo es, lo recuerdas muy bien, fue un regalo muy bonito, la viva imagen de su dueña.
+CB: Que lastima que no funcione bien, es un poco molesto.
+CB:supongo que es un buen reflejo de la vida, y que no todo dura para siempre.
+
+
+Juno: Nunca sentiste nada real en tu vida, verdad?
+
+
+Juno:jamás fuimos amigos, nunca.
+
+
+CB murmura algo en voz baja, Juno pudo distinguir un si de ese ruido.
+
+
+CB (El conejo lo deja en la mesa y hay mismo empieza a desarmarlo con una meticulosidad increible)
+(saca un juego de pinzas diminutas, comenzando a buscar en su reloj el problema.)
+
+
+Juno no puede evitar mirarlo un poco con intriga y otra con un poco de nostalgia, un sentimiento que descarta rápidamente
+
+
+Juno:dejar eso para después.
+El teléfono de Junio comienza a sonar, con una melodía de gato tonta y cursi, “Hola querida, hola mi cielo”  repetida en bucle.
+
+
+Juno se levanta y va a la esquina apartada de la sala de interrogatorios
+
+
+Juno tenia el corazon en la boca, Cheshire lo estaba llamando ahora?, no pudo evitar mirar de reojo al conejo blanco, este seguía arreglando su reloj sin prestarle atención.
+
+
+//Reproducir sonidos de corazón y de respiración pesada
+//De fondo se escucha la canción.
+
+
+Juno estaba dudando si atender o no, y de golpe 
+Juno:(Con un tono más bajo )Amor estas bien?.
+Se escucha un silencio del otro lado de la línea
+Juno estaba a punto de sufrir una taquicardia hasta que se escuchó una voz alegre algo pícara.
+Cheshire: Miau, las conejas siempre son tan temerosas?, hola cariño, como estas, espero no interrumpir algo se-
+Loppie:MAMA!, ESCUCHA MI IDEA, Una venta de Helados de leche de puerta a puerta, compramos la leche a proveedores en una granja, le agregamos azúcar crema, y guala!, helados deliciosos y fáciles de hacer, nos haríamos ricos!.
+Juno:Hmm, bueno mi vida, lo veremos mañana, ahora centrate en la escuela si.
+Loppie:Ok!, te quiero mama.
+Juno:Yo…yo también.
+Cheshire:Loopie, pequeña emprendedora, tengo que decirle algo a mamá.
+Cheshire:en que estaba.. ha si, vendrás tarde? no?
+Juno:si.. 
+Cheshire: te dejaré la cena preparada, junto con un regalo.
+Juno:¿Zanahorias?.
+Cheshire: Té de manzanilla, como te gusta.
+Juno no puede evitar sonreír y reír levemente.
+Juno:Gracias Sonriente.
+Gothica:Mamá!,te digo esto solo porque papá me obliga, mañana tengo una reunión con club WhoIt, los chicos y yo vamos a llegar tarde.
+
+
+Juno:nada de drogas, nada de alcohol, y… dile cheshire.
+Cheshire:Lleva protección.
+Juno:CHESHIRE!!!!.
+Cheshire:ok, ok, hija recuerda nada de chicos, ya sabes lo que digo.
+Gothic:Está bien… ¡Me voy, chao!.
+Se escucha el sonido de una puerta golpeándose.
+Juno:se nota que es una adolecente.
+Cheshire:Cariño no te quitaré más tiempo, te noto algo tensa, solo era para saber cómo estabas, te Amo.
+Juno: Y yo a-.
+(se escucha un leve ronroneo)
+CB:Cheshire!!, Cheshi, o mejor digo Lindo minino, ¿cómo estás?, veo que no perdiste el tiempo!.
+Cheshire:..... (se escucha el sonido de algo metálico golpeando el piso, el sonido de chispazo de aceite es audible.)
+Shu:¡Papa!, ¿qué carajos? 
+Loppia:...papi estas bien?, parece que viste un fantasma?.
+Cheshire:JUNO! SAL DE HAY! ME DA COMPLETAMENTE IGUAL QUE EL MALDITO REY ESTÉ EN PELIGRO SAL DE HAY.
+Juno:no puedo…
+Cheshire: (Con voz temblorosa pero llena de urgencia) ¡Juno! ¡Sal de ahí! Me da igual si el maldito rey está en peligro o no. ¡No te acerques a esa cosa! (Su voz se quiebra) Por favor, cariño, no puedo perderte.
+(El conejo se reclina sobre la mesa, se puede notar que se relame los labios de forma perturbadora)
+CB:también te quiero Cheshi,(golpetea la mesa con su puño) asumo que creíste que la reina me mataría, verme muerto siempre fue uno de tus sueños más oscuros.
+CB:¿sabes cómo logré escapar?.
+Cheshire:Pudrete!,Psicópata hijo de puta!, saco de mierda!.
+CB:usa uno de tus trucos, el coqueteo, quien lo diría,resultó que al final aprendí algo útil de ti, querido.
+Cheshire:Juno por favor.. te lo suplico, deja el caso.
+Juno:¡no puedo!, hay una niña en peligro.
+Cheshire:¡Me da igual!, seguro es mentira, seguro este engañara, seguro esa niña está muerta!
+CB:no, no lo está, está viva por ahora, eso depende de Juno, que vas a hacer salir por la puerta?, o seguir?.
+CB: (Con una sonrisa fría y ojos que brillan como gemas rojas) Solo te diré esto, Junie: si Alicia no es suficiente para motivarte... (hace una pausa, acariciando el reloj roto) Tal vez alguien más cercano a ti podría ser un mejor incentivo. Alguien como... (mira directamente a Juno) tu hija.
+el teléfono solo se escucha un silencio y uno mira al conejo con que refleja perturbación.
+El silencio se interrumpe por el mismo conejo.
+(levanta la mano y muestra con tres dedos levantados)
+CB:Tres son muchas debo admitir.
+Cheshire:(Emite un gruñido de ira a través del teléfono, como un gato que está en una pelea reñida).
+Cheshire:Si tocas a mi familia y te voy matar!, te juro que haré, ¡me oyes! Voy a meterte en la habitación más oscura y te arrancaré los ce-.
+Cheshire se interrumpe a sí mismo, recordando que sus hijos están justo a su lado.
+Juno: amor tranquilizate.., Quiero que hagas algo por mi.
+Cheshire:..hablas de, lo que ensayamos?.
+Juno:si, quiero que lo hagas, te llamaré si esta todo bien.
+Cheshire corta la llamada abruptamente.
+CB:Te he contado que cuando conocí a cheshire,me lo encontré en un callejón cuando jugaba fuera de la mansión de mis padres, me meti a un barrio un poco complicado, unos hooligans querían robarme, y el apareció.
+CB:Su labio, su seguridad, me impresionó, pensaba que era un hijo de un noble, pero solo era un pobre gato callejero, un huérfano.
+CB:Miralo ahora, con una hermosa esposa,cuatro! hijos!, y siendo un amo de casa, muy posmoderno, como puedo oir, que triste podría haber aspirado a mucho mas, aun asi lo quiero.
+CB:Juno, Tú y yo jugamos este juego antes, pero esta vez, las reglas las pongo yo.
+CB: Así que, ¿qué vas a hacer?.
+La alta detective apaga su teléfono, sin interrupciones esta vez.
+Se sienta en su silla sin decir una palabra.
+CB: Muy bien, Junie.
+CB:Muuuy.
+CB:Bieeen.
+CB:Ahora en que estábamos?
+
+[[CHOICE_Sin_Sucessora]]
+
+
+
+:: SCENE_interrogatorio_Conejo_blanco_Heroe {"position":"1025,400","size":"100,100"}
+<<if $Arquetipo == "Héroe">> 
+//En este arquetipo Juno está en ventaja y lo conduce a revelar la información que quiere de Alicia.
+
+
+Las luces titilan levemente, desvelando frente a nuestra detective se presenta una figura bajita y elegante. Era el susodicho en persona.
+
+
+<<FadeOutBackGround>>
+<<RandomBlinking>>
+<<FadeOutBackGround>>
+El conejo blanco.
+Sus ojos estaban tan abiertos fingiendo asombro, observa a Juno con su cabeza ladeada.
+una pequeña sonrisa burlona tirando de sus labios.
+Un reloj de bolsillo asomaba en su camisa, un tictac adubile en el silencio, pero sin sus diminutas manecillas.
+
+
+<<CharacterColor CB>>
+CB: (Con una sonrisa burlona y ojos brillantes) Hola, mi pequeña Junie. Tanto tiempo sin vernos. Aun conservas esa moral de cuento infantil que tanto te caracteriza... (hace una pausa dramática) Aunque, por lo que escuché, tu esposo sigue siendo un fracaso, ¿no?
+<<CharacterColor Juno>>
+
+
+Juno:Esta bien, es el hombre mas feliz del mundo, a diferencia del conejo frente a mi, estas un poco viejo conejo, cuando vas a sentar cabeza y dejarte de actos infantiles.
+
+
+CB aun sonriendo entrecierra sus ojos levantando una ceja, un una leve risa continuo.
+
+
+CB:Vaya vaya, eres muy cruel conejita cobarde, me pregunto si eso es cierto, además, a diferencia de ti yo tengo dinero.
+
+
+Juno:Si, es verdad que tienes dinero, pero sin nadie para compartirlo.
+Eso igual me importa poco, quiero saber, sobre Alicia Liddle.
+
+
+Juno:donde la dejaste?, quiero solo esa respuesta de tu parte, conejo.
+
+
+CB sonriendo aun mas
+CB:Tú siempre fuiste mala para entender las señales, Junie,.
+
+
+June:puedes aclarármelo si quieres, idiota.
+
+
+Juno desliza un documento del caso, aquí estás tú, algo borroso pero ya que solo hay dos conejos parlantes en esta ciudad, solo tú usarías sombreros de copa en pleno año 2024.
+
+
+Juno:recuerdo que tenías un traje con un saco, un poco aterrador, algo con manchas?.
+
+
+CB:vaya, eso es muy nostálgico, recuerdo ese traje.
+
+
+Juno:asi que si eres tu.
+
+
+CB:yo?, no, crees que podria hacerle algo asi a una niña, ademas puede ser un ena-
+
+
+Juno:claro que si enanito, y si, con lo que hiciste en el país, me imagino que secuestrar o incluso degollar a esta niña, no te quitará el sueño.
+
+
+CB está algo extrañado por la actitud de Juno, no era como lo recordaba.
+
+
+CB:Desde cuándo eres tan… “segura”?, compraste esa personalidad, o solo me estas mintiendo.
+
+
+Juno:No te importa, ahora eres un sospechoso, y yo estoy aquí para cumplir con mi trabajo, enanito.
+
+
+Juno arroja el pañuelo que le entregó como invitación.
+
+
+Juno:sabes que encontramos tu ADN en la escena del crimen.
+
+
+Juno:y coinciden con las de este pañuelo, bueno, este pañuelo es una replica, pero ya entiendes por donde voy.
+
+
+Juno:vas a ir preso, asi que para reducir tu sentencia, mejor deberías confesar donde esta.
+
+
+CB:he, claro, mi ADN, eso es un bulo Junie dudo que alguien deje su ADN en un caos así, una razón para que me metieran a prisión, si, por que tienes algo personal conmigo, esto es curación y abuso de autoridad, tu solo quieres vengarte.
+
+
+
+
+Juno: te puedo traer un cafe?, quieres algo de comer, hay sandwich de jamon con queso y mayonesa, una delicia,
+
+
+Juno:te traigo un chocolate hay una máquina expendedora Ce-
+
+
+CB:Estoy bien, tomé un desayuno abundante, bastante bien, aunque no puedo negar que es una buena oferta.
+CB asiente con su cabeza sin quitar su mirada de los ojos de Juno
+
+
+Juno está sentada de forma despatarrada, con sus piernas cruzadas y su brazo detrás de la silla.
+
+
+
+
+Juno:No hay de qué Señor conejo blanco, ahora quiero saber la ubicación exacta, por favor, no me gusta hacerle perder el tiempo, y menos si va a usar un traje naranja en unas horas.
+
+
+CB golpea la mesa con ira, antes de recomponerse relajándose
+
+
+Juno:oh!, no sabia que eras un poco enojon, vaya, quieres contarme cual es la fuente de esa ira, digamos que me siento generosa.
+
+
+CB: pudrete Juno, solo estás jugando, no te importa la niña, esto es por tu ego, esa falsa idealización tuya con ser la detective infalible.
+
+
+Juno:Lo dice el que orquestó una conspiración por años y fue desmantelada en cinco días, por.. ¿Por quién era?, ha si por mi!.
+Crees que no se donde esta la niña.
+Solo quiero que confieses para ahorrarte una profunda humillación pública, oh linchamiento, no se, no conozco como reacionarian el publico al saberlo, tal vez me sirva para detectar futuros “loquitos”, como tu.
+ 
+Juno:Te dire algo, nunca dije nada de como fue secuestrada Alicia, y tu mencionas operacion, tienes experiencia en ello y no poca.
+
+
+asi que, es muy sospechoso
+
+
+CB:tienes mi ADN o no?
+
+
+Juno:admites que lo dejaste?, mira, que interesante.
+
+
+CB: ¡Eso no era lo que quería decir!
+
+
+Juno:entonces fue un desliz freudiano, en cualquier caso, te diré que. Hagamos un trato, tu me dices tus motivos y yo te responderé una pregunta.
+
+
+CB:VAS A USAR MIS TRUCOS CONTRA MI!.
+
+
+Juno no puede evitar sonreír contrastando con el escenario, humillar al conejo blanco y resolver el caso, el día más feliz de su vida.
+Juno:Claro que… Si, te irrita y a mi me complace.
+Juno:¿ahora aceptas mi oferta?.
+CB:... Quiero a mi abogado.
+
+
+Juno:bien, en ese caso vamos a sacar una orden de cateo para su hogar, seguro que hay algunas cosas muy interesantes, si llamas a tu abogado es por que algo malo habrás hecho.
+A la opinión pública le encantará.
+
+
+*Se escucha un sonido de una cancion, el telefono de Juno Empieza a sonar*
+
+
+Juno:te dejaré descansar unos segundos, más vale que me guste la tonada de lo que dirás,que yo recuerde en el país les encantaba cantar, empieza a recordar Conejo.
+
+
+Juno camina a la esquina de su sala de interrogatorio para responder la llamada.
+
+
+Juno: Hola cariño, mi amor Cheshire, como estas?.
+
+
+Cheshire:(se escucha un ronroneo del otro lado) vaya, te noto muy animada, de casualidad instalaron una máquina juegos? o algo asi?.
+
+
+Juno: (se rie un poco) algo asi, de hecho estoy resolviendo un viejo contratiempo.
+
+
+Juno voltea a ver a CB
+
+
+Juno:uno que esta en seriooos problemas.
+
+
+Cheshire:ok…, era para saber en que estabas nada–
+
+
+Gotic:Mama, tengo que preguntarte algo, papa me obligo, tengo que ir a una convención… y papa dice que debo usar algo menos ridiculo.
+
+
+Juno: es una convencion de anime?.
+
+
+Gotic:...no..
+
+
+Juno:dudo que haga falta, usar algo mas para tu ropa normal para una convención de furros, nadie se dara cuenta.
+
+
+Gotic:mama!!!,
+
+
+Se escucha una risa gatuna del otro lado, a carcajadas.
+
+
+Juno:no era esa convención?
+
+
+Gotic:no!, bueno si… pero no lo digas asi..
+
+
+Juno:dios santo…, regresa temprano, nada de cosas raras.
+
+
+Juno:y lleva una navaja en tu bota, solo por si acaso..
+
+
+Cheshire:... No me parece tan grave para hacer eso, pero si mejor escucha a tu mama.
+
+
+Gotic:....esta bien.
+
+
+Juno:llama a Cheshire cuando llegues y salgas. quiero que regreses antes de las dos, te amo.
+
+
+Gotic:y yo a ti mamá…, dios… que humillación.
+
+
+Juno:jeje amor, yo estoy gordita, y no me molesta admitirlo.
+
+
+Juno:ve y Cheshire mantente atento.
+
+
+CB:CB:Cheshire!!, Cheshi!, o mejor digo Lindo minino, ¿cómo estás?, veo que no perdiste el tiempo!.
+
+
+CB:me complace oírte, precioso.
+
+
+Cheshire:..... (se escucha el sonido de algo metálico golpeando el piso, el sonido de chispazo de aceite es audible.)
+Shu:¡Papa!, ¿qué carajos? 
+Loppia:...papi estas bien?, parece que viste un fantasma?.
+Cheshire:JUNO! SAL DE HAY! ME DA COMPLETAMENTE IGUAL QUE EL MALDITO REY ESTÉ EN PELIGRO SAL DE HAY.
+Juno:amor, yo me encargaré, descuida.
+Cheshire: NO,NO NO,sal de ahí ahora, me da igual por qué razón sea, él es un monstruo.
+
+
+CB:awww me recuerdas con mucho cariño minino, también te quiero.
+
+
+Cheshire:tu maldito, que estás haciendo aquí, la reina te quería muerto.
+
+
+CB:*jiji* veras, soy muy bueno con las palabras, cómo estás, Junie sigue ignorando y podrían haber una serie de consecuencias.
+Unas muy personales, como que alguno de tus hijos le pase.
+
+
+Juno desenfunda su pistola  de forma veloz y le dispara en el sombrero de copa quitándoselo de un solo disparo.
+
+
+Juno martilla el arma nuevamente.
+
+
+Juno:Me quedan cinco balas, y está fue de advertencia, tesoro~
+
+
+CB se queda estupefacto, no esperaba algo así.
+CB:...
+
+
+El gato de cheshire está del otro lado de la línea, sin emitir palabra.
+
+
+Juno:resolveré el caso, tranquilo si se hace lo importante, lo voy a liquidar.
+
+
+Juno:te amo sonrisas.
+
+
+Cheshire:y.. yo a ti.. Ten cuidado, no lo acorrales.
+
+
+Juno corta la llamada antes de voltearse viendo a CB nuevamente.
+
+
+Juno:ahora en qué estábamos?.
+
+
+La mirada de CB cambia a una sería y su postura también.
+
+
+CB:¿Crees que esto es un juego?.
+
+
+CB:Soy el conejo blanco idiota, Loca, nadie me trata de esa manera!.
+
+
+Juno procede a sentarse está vez de recta y sería.
+
+
+Juno:deberían, eres un psicópata megalómano.
+
+
+Juno:no tienes empatía.
+
+
+CB:jojo ahora te pones moralista, tu no me conoces.
+
+
+Juno:Pruébalo, pruebame.
+
+
+CB toma con cuidado sunreloj de bolsillo enseñándo lo a Juno.
+CB:¿Recuerdas esto?, Junie.
+Juno: aún conservas esa baratija.
+CB:oh, la recuerdas? Así que si recuerdas todos esos buenos momentos.
+Juno se reclina sobre la mesa
+Juno:estabas enamorado de mi?.
+
+
+CB:que..?
+
+
+Juno: vamos, no soy estúpida, aunque me das asco hoy en día, antes eras alguien mejor, recuerdas cuando te dí ese reloj?.
+
+
+Juno:Yo sí lo recuerdo.
+
+
+El sonido de risas reverberadas cada vez más se hace presente,el Tik Tak del reloj cada vez más rápido he invertido.
+Hasta que.
+
+
+
+
+*Flashback*
+(Se escuchar risas)
+Una coneja delgada joven con un atuendo poco formal para una detective, alta delgada, con una camiseta rosa, un chaleco superior pequeño. abotonado, unas botas de cuero curtido y unos pantalones de chándal con una lupa colgando de su cinturón.
+Arrojándose en un sofá de cuero de forma descuidada.
+Juno: (Riendo, con una botella de cerveza en la mano) ¡Por un trabajo bien hecho!. Frente a ella, dos figuras fantásticas compartían el momento. El primero era un conejo blanco, vestido con un traje de mensajero impecable, sombrero de copa con alas y un saco rojo que contrastaba con sus pantalones cortos. En su bolsillo, un reloj de bolsillo brillaba con luz propia. El segundo, un gato sonriente, observaba con ojos intrigados, como si supiera que aquel momento de camaradería no duraría para siempre.
+
+
+
+
+CB: bueno si, pero no te emociones tanto, no es como si fuéramos a hacerlo de nuevo(El conejo sujeta en su mano un vaso de whisky ).
+
+
+
+
+Chesire: Me recuerda cuando eramos niños Blanco, eres un canalla.(Cheshire lo mira con su sonrisa, su voz suena con un toque de resentimiento.)
+CB:Viniendo de un ladrón… eso es preocupante.
+Cheshire:la reina no se enterara.
+
+
+
+
+Juno: Oye Blanco, puedo llamarte Blanco?.
+CB:Si, solo si me permites ponerte un apodo luego.
+Juno:claro.
+Juno:quería decirte que.
+Juno:Mira compre esto en el mercado, me debían un favor para arreglar el asunto de las flores de whisky.
+CB: ¿Espera es un regalo?, ¿para mí?
+Juno: si, es un reloj de bolsillo, es un poco viejo, no muy caro perdona por eso, aunque funciona bien, es un regalo de agradecimiento.
+Juno:si no fuera por ti, no hubiera llegado tan lejos aquí.
+Juno: eres una gran amigo, y una gran persona.
+CB: gracias Juno.
+CB:(extiende sus dedos y toma con cuidado el reloj de las manos de Juno)
+CB:(lo abraza apegándose a su pecho, por unos segundo)
+Cheshire:Cuidado, Detective... algún día él elegirá el poder sobre tus regalos.
+Juno lo ve abrazando su regalo, era muy tierno.
+Juno:parece que lo aprecia mucho.
+CB:se ríe levemente, aun sigo aqui, y te prometo que lo cuidare, gracias Juno.
+CB: En cuanto al apodo, Que tal Junie.
+Juno:me encanta, adelante.
+Juno:(Juno extiende su mano la cabeza y cuello de CB)
+CB:que haces..?
+Juno:eres muy suave, me preguntaba que tan suave eres(el alcohol la desinhibido bastante)
+Juno: aún me acuerdo que te ofrecí ser mi mascota de apoyo emocional, que locura esa no?..
+
+
+CB:(susurra para si mismo) a mi no me importaría serlo..
+
+
+Juno:que tierno no me puedes responder, ahora(bebe el resto de su botella con solo unos pocos tragos)
+
+
+Ambos “amigos” les impresionó este acto, y se preguntaban si la chica fue criada por un padre soltero, oh ya era algo masculina de nacimiento.
+
+
+Juno se desplomó en el sofá despatarrándose sin ningún tipo de pudor.
+
+
+Cheshire:je, iré a traer una manta, al menos que quieras quedarte a mirar a la coneja, conejo necesitando.
+
+
+CB:.. oh Cheshire, por qué no te metes en tus asuntos, y me dejas a mí hacer los míos.
+
+
+Cheshire:podrías al menos disimularlo, “animal de apoyo emocional”.
+Cheshire se ríe de su propia broma y CB lo mira de forma tajante y asesina.
+
+
+CB se queda sentado terminando su Whisky, mientras Cheshire busca una manta.
+
+
+Juno ya se estaba durmiendo de la borrachera que tenía.
+
+
+
+
+*Fin del Flashback*
+
+
+CB:oh Junie que.. enferma estás, te preocupas por ello en lugar de la niña, que desalmada eres.
+
+
+Juno:podrías solo decírmelo o iré escarbando cada vez más hasta que confieses.
+
+
+CB:...
+
+
+Juno:quieres ser fuerte y solo terminas lastimado, que pena por ti.
+
+
+Juno:eso ganas por jugar con tijeras, puedes terminar sin un ojo o sin vida.
+
+
+Juno:dejaré de jugar, dime lo que quiero saber.
+
+
+Juno:Quiero que me digas, donde está la niña.
+
+
+Se puede apreciar a Juno vista desde los ojos de CB
+
+
+-> decirle dónde está
+[[CHOICE_decirle_donde_está]]
+
+-> explicar mis razones.
+[[CHOICE_Decirle_Mis_Razones]]
+
+-> intentar coquetear
+[[CHOICE_Couetear]]

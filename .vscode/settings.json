@@ -60,5 +60,5 @@
         "**/*.rpymc": true,
         "**/cache/": true
     },
-    "dotnet.defaultSolution": "Wonderland - Reforge.sln"
+    "dotnet.defaultSolution": "WhereAreTheAlices.sln"
 }
